@@ -11,15 +11,28 @@
     </div>
   </div>
   <div class="row justify-content-center mb-5">
-    <div id="viewport" style="width:400px; height:400px;"></div>
+    <div class="col-10 col-md-5 order-md-2">
+      <div id="viewport1" style="width:400px; height:400px;"></div>
+    </div>
+    <div class="col-10 col-md-5 order-md-1 mb-5">
+      <div id="viewport2" style="width:400px; height:400px;"></div>
+    </div>
+    <div class="col-10">
+        {{ aln }}
+    </div>
   </div>
 </div>
 
 <script>
   var stage;
   document.addEventListener("DOMContentLoaded", function () {
-    stage = new NGL.Stage("viewport", { backgroundColor: "white" });
-    stage.loadFile("/static/test.pdb").then(function (o) {
+    stage1 = new NGL.Stage("viewport1", { backgroundColor: "white" });
+    stage1.loadFile("/static/AVX54569.1/query.pdb").then(function (o) {
+      o.addRepresentation("cartoon", {colorScheme: "sstruc", smoothSheet: true});
+      o.autoView();
+    });
+    stage2 = new NGL.Stage("viewport2", { backgroundColor: "white" });
+    stage2.loadFile("/static/AVX54569.1/AF-B3R0R7-F1-model_v2.pdb").then(function (o) {
       o.addRepresentation("cartoon", {colorScheme: "sstruc", smoothSheet: true});
       o.autoView();
     });
