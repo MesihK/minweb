@@ -18,8 +18,11 @@
 <script>
   var stage;
   document.addEventListener("DOMContentLoaded", function () {
-    stage = new NGL.Stage("viewport");
-    stage.loadFile("/static/test.pdb", {defaultRepresentation: true});
+    stage = new NGL.Stage("viewport", { backgroundColor: "white" });
+    stage.loadFile("/static/test.pdb").then(function (o) {
+      o.addRepresentation("cartoon", {colorScheme: "sstruc", smoothSheet: true});
+      o.autoView();
+    });
   });
 </script>
 {% endblock %}
