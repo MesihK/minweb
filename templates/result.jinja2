@@ -1,0 +1,114 @@
+{% extends "layout.jinja2" %}
+
+{% block content %}
+
+<div class="container mt-4">
+  <div class="row justify-content-center">
+    <div class="col-10">
+      <h2>Summary</h2>
+    </div>
+    <div class="col-10 mb-1">
+    <div class="card-group">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">{{ res[0][0] }}</h5>
+          <h6 class="card-subtitle mb-2 text-muted">{{ res[0][1] }}</h6>
+          <p class="card-text">{{ res[0][3] }}. <br> <em>M. mycoides</em> homolog: {{ res[0][2] }}.<br>  TIGRESS: {{ res[0][4] }}.<br>  Category: {{ res[0][5] }}.</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Statistics</h5>
+          <p class="card-text">Total GO Annotation: {{ res[0][6] }} <br> Unique PROST Go: {{ res[0][7] }} <br> Unique BLAST Go: {{ res[0][8] }} <br> Unique Uniprot Go: {{ res[0][9] }}</p>
+          <p class="card-text">Total Homologs: {{ res[0][10] }} <br> Unique PROST Homologs: {{ res[0][11] }} <br> Unique BLAST Homologs: {{ res[0][12] }}</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Literature</h5>
+          <p class="card-text">Danchin: {{ res[0][13] }} <br> Zhang: {{ res[0][14] }} <br> Antczak: {{ res[0][15] }} <br> Yang: {{ res[0][16] }}</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="col-10">
+      <h2>Structures and Sequence Alignment</h2>
+    </div>
+    <div class="col-5">
+      <div id="viewport1" class='border' style="height:400px;"></div>
+    </div>
+    <div class="col-5">
+      <div id="viewport2" class='border' style="height:400px;"></div>
+    </div>
+    <div class="col-10">
+        <h5>TM-Score: {{ res[1][1] }}. Sequence Identity: {{ res[1][2] }} </h5>
+    </div>
+    <div class="col-10 d-flex justify-content-center mb-1 mt-1">
+        {{ res[4] }}
+    </div>
+    <div class="col-10">
+      <h2>Go Annotations</h2>
+    </div>
+    <div class="col-10 mb-5">
+    <table id="" class="table table-striped tDisplay " style="width:100%">
+        <thead>
+            <tr>
+                <th>Source</th>
+                <th>GO</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+          {% for g in res[2] %}
+            <tr>
+                <td>{{ g[0] }}</td>
+                <td><a href="http://amigo.geneontology.org/amigo/term/{{ g[1] }}" target="_blank">{{ g[1] }}</a></td>
+                <td>{{ g[2] }}</td>
+            </tr>
+          {% endfor %}
+        </tbody>
+    </div>
+    <div class="col-10">
+    <table id="" class="table table-striped tDisplay" style="width:100%">
+        <thead>
+            <tr>
+                <th>Source</th>
+                <th>Homolog</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+          {% for h in res[3] %}
+            <tr>
+                <td>{{ h[0] }}</td>
+                <td><a href="https://www.uniprot.org/uniprot/{{ h[1] }}" target="_blank">{{ h[1] }}</a></td>
+                <td>{{ h[2] }}</td>
+            </tr>
+          {% endfor %}
+        </tbody>
+    </div>
+    <div class="col-10">
+      <h2>Homologs</h2>
+    </div>
+  </div>
+</div>
+
+<script>
+  $(document).ready(function () {
+      $('table.tDisplay').DataTable();
+  });
+  var stage;
+  document.addEventListener("DOMContentLoaded", function () {
+    stage1 = new NGL.Stage("viewport1", { backgroundColor: "white" });
+    stage1.loadFile("/static/results/{{ pid }}/query.pdb").then(function (o) {
+      o.addRepresentation("cartoon", {colorScheme: "sstruc", smoothSheet: true});
+      o.autoView();
+    });
+    stage2 = new NGL.Stage("viewport2", { backgroundColor: "white" });
+    stage2.loadFile("/static/results/{{ pid }}/target.pdb").then(function (o) {
+      o.addRepresentation("cartoon", {colorScheme: "sstruc", smoothSheet: true});
+      o.autoView();
+    });
+  });
+</script>
+{% endblock %}
