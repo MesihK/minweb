@@ -5,70 +5,46 @@
 {% from 'bootstrap5/form.html' import render_form %}
 
 <div class="container mt-4">
-  <div class="row justify-content-center">
-    <div class="col-10">
-      <h2>Minimal Organisim PROST Results</h2>
+  <div class="row">
+    <div class="col-10 d-flex justify-content-center mb-5">
+      <h2>Minimal Organisim JCVI-Syn3a PROST Results</h2>
     </div>
   </div>
-  <div class="row justify-content-center mb-5">
-    <div class="col-5">
-      <div id="viewport1" style="width:400px; height:400px;"></div>
-    </div>
-    <div class="col-5 mb-5">
-      <div id="viewport2" style="width:400px; height:400px;"></div>
-    </div>
     <div class="col-10">
-        {{ aln }}
-    </div>
-    <div class="col-10">
-    <table id="example" class="table table-striped" style="width:100%">
+    <table id="example" class="table table-striped mt-2 mb-5" style="width:100%">
         <thead>
             <tr>
-                <th>Name</th>
-                <th>Position</th>
-                <th>Office</th>
-                <th>Age</th>
-                <th>Start date</th>
-                <th>Salary</th>
+                <th>NCBI ID</th>
+                <th>JCVI ID</th>
+                <th>Function</th>
+                <th>Classification</th>
+                <th>Essentiality</th>
+                <th>PROST Homolog</th>
+                <th>TM-Score</th>
+                <th>Sequence Id.</th>
             </tr>
         </thead>
         <tbody>
+          {% for p in summary %}
             <tr>
-                <td>Tiger Nixon</td>
-                <td>System Architect</td>
-                <td>Edinburgh</td>
-                <td>61</td>
-                <td>2011-04-25</td>
-                <td>$320,800</td>
+                <td><a href="/result?p={{ p[0] }}" target="_self">{{ p[0] }}</a></td>
+                <td>{{ p[1] }}</td>
+                <td>{{ p[2] }}</td>
+                <td>{{ p[3] }}</td>
+                <td>{{ p[4] }}</td>
+                <td>{{ p[5] }}</td>
+                <td>{{ p[6] }}</td>
+                <td>{{ p[7] }}</td>
             </tr>
-            <tr>
-                <td>Garrett Winters</td>
-                <td>Accountant</td>
-                <td>Tokyo</td>
-                <td>63</td>
-                <td>2011-07-25</td>
-                <td>$170,750</td>
-            </tr>
+          {% endfor %}
+        </tbody>
     </div>
   </div>
 </div>
 
 <script>
-$(document).ready(function () {
-    $('#example').DataTable();
-});
-  var stage;
-  document.addEventListener("DOMContentLoaded", function () {
-    stage1 = new NGL.Stage("viewport1", { backgroundColor: "white" });
-    stage1.loadFile("/static/AVX54569.1/query.pdb").then(function (o) {
-      o.addRepresentation("cartoon", {colorScheme: "sstruc", smoothSheet: true});
-      o.autoView();
-    });
-    stage2 = new NGL.Stage("viewport2", { backgroundColor: "white" });
-    stage2.loadFile("/static/AVX54569.1/AF-B3R0R7-F1-model_v2.pdb").then(function (o) {
-      o.addRepresentation("cartoon", {colorScheme: "sstruc", smoothSheet: true});
-      o.autoView();
-    });
+  $(document).ready(function () {
+      $('#example').DataTable();
   });
 </script>
 {% endblock %}
