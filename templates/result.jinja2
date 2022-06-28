@@ -50,7 +50,7 @@
       <h2>Go Annotations</h2>
     </div>
     <div class="col-10 mb-5">
-    <table id="" class="table table-striped tDisplay " style="width:100%">
+    <table id="goTable" class="table table-striped tDisplay " style="width:100%">
         <thead>
             <tr>
                 <th>Source</th>
@@ -69,12 +69,14 @@
         </tbody>
     </div>
     <div class="col-10">
-    <table id="" class="table table-striped tDisplay" style="width:100%">
+    <table id="homTable" class="table table-striped tDisplay" style="width:100%">
         <thead>
             <tr>
                 <th>Source</th>
                 <th>Homolog</th>
                 <th>Description</th>
+                <th>PROST Evalue</th>
+                <th>BLAST Evalue</th>
             </tr>
         </thead>
         <tbody>
@@ -83,6 +85,8 @@
                 <td>{{ h[0] }}</td>
                 <td><a href="https://www.uniprot.org/uniprot/{{ h[1] }}" target="_blank">{{ h[1] }}</a></td>
                 <td>{{ h[2] }}</td>
+                <td>{{ h[3] }}</td>
+                <td>{{ h[4] }}</td>
             </tr>
           {% endfor %}
         </tbody>
@@ -95,7 +99,13 @@
 
 <script>
   $(document).ready(function () {
-      $('table.tDisplay').DataTable();
+      $('#homTable').DataTable( {
+            "columnDefs": [
+                { "type": "scientific", targets: 3 },
+                { "type": "scientific", targets: 4 }
+            ]
+        } );
+      $('#goTable').DataTable();
   });
   var stage;
   document.addEventListener("DOMContentLoaded", function () {
