@@ -33,8 +33,6 @@
     </div>
     <div class="col-10">
       <h2>Structures and Sequence Alignment</h2>
-    </div>
-    <div class="col-10">
       <p>Top 10 PROST homologs that are not predicted by BLAST aligned with the query structure.
          Best structural homolog was
          <a href="https://www.uniprot.org/uniprot/{{ res[1][0] }}" target="_blank">{{ res[1][0] }}</a>
@@ -51,6 +49,13 @@
     </div>
     <div class="col-10">
       <h2>Go Annotations</h2>
+      <p><b>1. PBU</b> indicates the go terms that are found by both PROST and BLAST and as well as annotated by Uniprot.<br>
+         <b>2. PU</b> indicates the go terms that are found by only PROST and also annotated by Uniprot too.<br>
+         <b>3. BU</b> indicates the go terms that are found by only BLAST and also annotated by Uniprot too.<br>
+         <b>4. PB</b> indicates the go terms that are found by both PROST and BLAST.<br>
+         <b>5. P</b> indicates the go terms that are found by only PROST.<br>
+         <b>6. U</b> indicates the go terms that are only annotated by Uniprot.<br>
+         <b>7. B</b> indicates the go terms that are found by only BLAST.</p>
     </div>
     <div class="col-10 mb-5">
     <table id="goTable" class="table table-striped tDisplay " style="width:100%">
@@ -96,6 +101,9 @@
     </div>
     <div class="col-10">
       <h2>Homologs</h2>
+      <p><b>1. PB</b> indicates the homologs that are found by both PROST and BLAST.<br>
+      <b>2. P</b> indicates homologs that are only found by PROST.<br>
+      <b>3. B</b> indicates homologs that are only found by BLAST.</p>
     </div>
   </div>
 </div>
