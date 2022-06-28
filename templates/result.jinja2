@@ -34,14 +34,17 @@
     <div class="col-10">
       <h2>Structures and Sequence Alignment</h2>
     </div>
+    <div class="col-10">
+      <p>Top 10 PROST homologs that are not predicted by BLAST aligned with the query structure.
+         Best structural homolog was
+         <a href="https://www.uniprot.org/uniprot/{{ res[1][0] }}" target="_blank">{{ res[1][0] }}</a>
+         with a <b>TM-Score: {{ res[1][1] }}</b> and with a sequence identity of <b>{{ res[1][2] }}</b>. </p>
+    </div>
     <div class="col-5">
       <div id="viewport1" class='border' style="height:400px;"></div>
     </div>
     <div class="col-5">
       <div id="viewport2" class='border' style="height:400px;"></div>
-    </div>
-    <div class="col-10">
-        <h5>TM-Score: {{ res[1][1] }}. Sequence Identity: {{ res[1][2] }} </h5>
     </div>
     <div class="col-10 d-flex justify-content-center mb-1 mt-1">
         {{ res[4] }}
