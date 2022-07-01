@@ -4,13 +4,12 @@
 
 {% from 'bootstrap5/form.html' import render_form %}
 
-<div class="container mt-4">
+<div class="container mt-4 mb-5">
   <div class="row">
-    <div class="col-10 d-flex justify-content-center mb-5">
+    <div class="col-12 d-flex justify-content-center">
       <h2>Minimal Organisim JCVI-Syn3a PROST Results</h2>
     </div>
-  </div>
-    <div class="col-10">
+    <div class="col-12 mb-5">
     <table id="example" class="table table-striped mt-2 mb-5" style="width:100%">
         <thead>
             <tr>
@@ -21,7 +20,9 @@
                 <th>Essentiality</th>
                 <th>PROST Homolog</th>
                 <th>TM-Score</th>
-                <th>Sequence Id.</th>
+                <th>Seq. Id.</th>
+                <th>PROST Hom</th>
+                <th>BLAST Hom</th>
             </tr>
         </thead>
         <tbody>
@@ -32,9 +33,11 @@
                 <td>{{ p[2] }}</td>
                 <td>{{ p[3] }}</td>
                 <td>{{ p[4] }}</td>
-                <td>{{ p[5] }}</td>
+                <td><a href="https://www.uniprot.org/uniprot/{{ p[5] }}" target="_blank">{{ p[5] }}</a></td>
                 <td>{{ p[6] }}</td>
                 <td>{{ p[7] }}</td>
+                <td>{{ p[8] }}</td>
+                <td>{{ p[9] }}</td>
             </tr>
           {% endfor %}
         </tbody>
