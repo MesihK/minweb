@@ -20,13 +20,13 @@
         <div class="card-body">
           <h5 class="card-title">Statistics</h5>
           <p class="card-text">Total GO Annotation: {{ res[0][6] }} <br> Unique PROST Go: {{ res[0][7] }} <br> Unique BLAST Go: {{ res[0][8] }} <br> Unique Uniprot Go: {{ res[0][9] }}</p>
-          <p class="card-text">Total Homologs: {{ res[0][10] }} <br> Unique PROST Homologs: {{ res[0][11] }} <br> Unique BLAST Homologs: {{ res[0][12] }}</p>
+          <p class="card-text">Total Homologs: {{ res[0][10] }} <br> Unique PROST Homologs: {{ res[0][11] }} <br> Unique BLAST Homologs: {{ res[0][12] }} <br> Unique Foldseek Homologs: {{ res[0][13] }}</p>
         </div>
       </div>
       <div class="card">
         <div class="card-body">
           <h5 class="card-title">Literature</h5>
-          <p class="card-text">Danchin: {{ res[0][13] }} <br> Zhang: {{ res[0][14] }} <br> Antczak: {{ res[0][15] }} <br> Yang: {{ res[0][16] }}</p>
+          <p class="card-text">Danchin: {{ res[0][14] }} <br> Zhang: {{ res[0][15] }} <br> Antczak: {{ res[0][16] }} <br> Yang: {{ res[0][17] }}</p>
         </div>
       </div>
     </div>
@@ -86,6 +86,7 @@
                 <th>Description</th>
                 <th>PROST Evalue</th>
                 <th>BLAST Evalue</th>
+                <th>Foldseek TMScore</th>
             </tr>
         </thead>
         <tbody>
@@ -96,6 +97,7 @@
                 <td>{{ h[2] }}</td>
                 <td>{{ h[3] }}</td>
                 <td>{{ h[4] }}</td>
+                <td>{{ h[5] }}</td>
             </tr>
           {% endfor %}
         </tbody>

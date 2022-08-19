@@ -2,7 +2,8 @@ import flask
 from flask import render_template, session, redirect, url_for, request, flash, send_file
 from flask_bootstrap import Bootstrap5
 import jinja2
-from pickle import load
+from pickle import loads
+import blosc
 
 import eventlet
 eventlet.monkey_patch()
@@ -13,13 +14,16 @@ app.config['SECRET_KEY'] = 'secret!'
 
 
 with open('jcvi.prost.db.pkl','rb') as f:
-    db = load(f)
+    db = loads(blosc.decompress(f.read()))
 
 summary = []
 for p in db:
     info = db[p]
-    #pid, jcvi, func, class, essentiality, homolog, tm, seqid, PROST hom, BLAST hom
-    summary.append([p,info[0][1],info[0][3],info[0][4],info[0][5],info[1][0],info[1][1],info[1][2],info[0][10]-info[0][12],info[0][10]-info[0][11]])
+    phom = info[0][10]-info[0][12]-info[0][13]
+    bhom = info[0][10]-info[0][11]-info[0][13]
+    fhom = info[0][10]-info[0][11]-info[0][12]
+    #pid, jcvi, func, class, essentiality, homolog, tm, seqid, PROST hom, BLAST hom, FS hom
+    summary.append([p,info[0][1],info[0][3],info[0][4],info[0][5],info[1][0],info[1][1],info[1][2],phom,bhom,fhom])
 
 @app.route('/', methods=['GET'])
 def index():
