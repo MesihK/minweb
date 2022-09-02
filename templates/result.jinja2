@@ -46,16 +46,16 @@
       <div id="viewport2" class='border' style="height:400px;"></div>
     </div>
     <div class="col-10 d-flex justify-content-center mb-1 mt-1">
-        {{ res[4] }}
+        {{ res[5] }}
     </div>
     <div class="col-10">
       <h2>Go Annotations</h2>
-      <p><b>1. PBU</b> indicates the go terms that are found by both PROST and BLAST and as well as annotated by Uniprot.<br>
-         <b>2. PU</b> indicates the go terms that are found by only PROST and also annotated by Uniprot too.<br>
-         <b>3. BU</b> indicates the go terms that are found by only BLAST and also annotated by Uniprot too.<br>
+      <p><b>1. PBF</b> indicates the go terms that are found by both PROST and BLAST and Foldseek.<br>
+         <b>2. PF</b> indicates the go terms that are found by only PROST and Foldseek.<br>
+         <b>3. BF</b> indicates the go terms that are found by only BLAST and Foldseek.<br>
          <b>4. PB</b> indicates the go terms that are found by both PROST and BLAST.<br>
          <b>5. P</b> indicates the go terms that are found by only PROST.<br>
-         <b>6. U</b> indicates the go terms that are only annotated by Uniprot.<br>
+         <b>6. F</b> indicates the go terms that are found by only Foldseek.<br>
          <b>7. B</b> indicates the go terms that are found by only BLAST.</p>
     </div>
     <div class="col-10 mb-5">
@@ -76,8 +76,40 @@
             </tr>
           {% endfor %}
         </tbody>
+    </table>
     </div>
     <div class="col-10">
+      <h2>Uniprot GO Annotations</h2>
+    </div>
+    <div class="col-10 mb-5">
+    <table id="goTable2" class="table table-striped tDisplay " style="width:100%">
+        <thead>
+            <tr>
+                <th>GO</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+          {% for g in res[3] %}
+            <tr>
+                <td><a href="http://amigo.geneontology.org/amigo/term/{{ g[0] }}" target="_blank">{{ g[0] }}</a></td>
+                <td>{{ g[1] }}</td>
+            </tr>
+          {% endfor %}
+        </tbody>
+    </table>
+    </div>
+    <div class="col-10">
+      <h2>Homologs</h2>
+      <p><b>1. PBF</b> indicates the homologs that are found by both PROST and BLAST and Foldseek.<br>
+         <b>2. PF</b> indicates the homologs that are found by only PROST and Foldseek.<br>
+         <b>3. BF</b> indicates the homologs that are found by only BLAST and Foldseek.<br>
+         <b>4. PB</b> indicates the homologs that are found by both PROST and BLAST.<br>
+         <b>5. P</b> indicates the homologs that are found by only PROST.<br>
+         <b>6. F</b> indicates the homologs that are found by only Foldseek.<br>
+         <b>7. B</b> indicates the homologs that are found by only BLAST.</p>
+    </div>
+    <div class="col-10 mb-5">
     <table id="homTable" class="table table-striped tDisplay" style="width:100%">
         <thead>
             <tr>
@@ -90,7 +122,7 @@
             </tr>
         </thead>
         <tbody>
-          {% for h in res[3] %}
+          {% for h in res[4] %}
             <tr>
                 <td>{{ h[0] }}</td>
                 <td><a href="https://www.uniprot.org/uniprot/{{ h[1] }}" target="_blank">{{ h[1] }}</a></td>
@@ -101,12 +133,7 @@
             </tr>
           {% endfor %}
         </tbody>
-    </div>
-    <div class="col-10">
-      <h2>Homologs</h2>
-      <p><b>1. PB</b> indicates the homologs that are found by both PROST and BLAST.<br>
-      <b>2. P</b> indicates homologs that are only found by PROST.<br>
-      <b>3. B</b> indicates homologs that are only found by BLAST.</p>
+    </table>
     </div>
   </div>
 </div>
@@ -120,6 +147,7 @@
             ]
         } );
       $('#goTable').DataTable();
+      $('#goTable2').DataTable();
   });
   var stage;
   document.addEventListener("DOMContentLoaded", function () {
