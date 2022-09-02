@@ -19,14 +19,17 @@
       <div class="card">
         <div class="card-body">
           <h5 class="card-title">Statistics</h5>
-          <p class="card-text">Total GO Annotation: {{ res[0][6] }} <br> Unique PROST Go: {{ res[0][7] }} <br> Unique BLAST Go: {{ res[0][8] }} <br> Unique Uniprot Go: {{ res[0][9] }}</p>
+          <p class="card-text">Total GO Annotation: {{ res[0][6] }} <br> Unique PROST Go: {{ res[0][7] }} <br> Unique BLAST Go: {{ res[0][8] }} <br> Unique Foldseek Go: {{ res[0][9] }}</p>
           <p class="card-text">Total Homologs: {{ res[0][10] }} <br> Unique PROST Homologs: {{ res[0][11] }} <br> Unique BLAST Homologs: {{ res[0][12] }} <br> Unique Foldseek Homologs: {{ res[0][13] }}</p>
         </div>
       </div>
       <div class="card">
         <div class="card-body">
           <h5 class="card-title">Literature</h5>
-          <p class="card-text">Danchin: {{ res[0][14] }} <br> Zhang: {{ res[0][15] }} <br> Antczak: {{ res[0][16] }} <br> Yang: {{ res[0][17] }}</p>
+          <p class="card-text">Danchin and Fang <a href="https://doi.org/10.1111/1751-7915.12384" target="_blank">[1]</a>: {{ res[0][14] }} <br>
+                               Yang and Tsui <a href="https://pubs.acs.org/doi/10.1021/acs.jproteome.8b00262" target="_blank">[2]</a>: {{ res[0][15] }} <br>
+                               Antczak et al. <a href="https://doi.org/10.1038/s41467-019-10837-2" target="_blank">[3]</a>: {{ res[0][16] }} <br>
+                               Zhang et al. <a href="https://pubs.acs.org/doi/10.1021/acs.jproteome.0c00359?ref=pdf" target="_blank">[4]</a>: {{ res[0][17] }}</p>
         </div>
       </div>
     </div>
