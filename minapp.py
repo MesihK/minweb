@@ -19,8 +19,8 @@ with open('jcvi.prost.db.pkl','rb') as f:
 summary = []
 for p in db:
     info = db[p]
-    #pid, jcvi, func, class, essentiality, homolog, tm, seqid, PROST hom, BLAST hom, FS hom
-    summary.append([p,info[0][1],info[0][3],info[0][4],info[0][5],info[1][0],info[1][1],info[1][2],info[0][19],info[0][20],info[0][21]])
+    #pid, jcvi, func, class, essentiality, homolog, function, tm, seqid, PROST hom, BLAST hom, FS hom
+    summary.append([p,info[0][1].split('_')[1],info[0][3],info[0][4],info[0][5],info[1][0],info[1][3],info[1][1],info[1][2],info[1][4],info[0][19],info[0][20],info[0][21]])
 
 @app.route('/', methods=['GET'])
 def index():
