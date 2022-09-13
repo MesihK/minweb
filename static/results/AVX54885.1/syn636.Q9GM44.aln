@@ -1,0 +1,92 @@
+Align syn636.pdb 929 with AF-Q9GM44-F1-model_v3.pdb 958
+Twists 5 ini-len 584 ini-rmsd 19.37 opt-equ 587 opt-rmsd 12.60 chain-rmsd 49.62 Score 702.79 align-len 1081 gaps 494 (45.70%)
+P-value 3.90e-02 Afp-num 422241 Identity 4.07% Similarity 13.23%
+Block  0 afp  2 score 42.31 rmsd  2.48 gap 0 (0.00%)
+Block  1 afp  5 score 72.15 rmsd  6.97 gap 6 (0.13%)
+Block  2 afp 16 score 178.82 rmsd 14.30 gap 57 (0.31%)
+Block  3 afp  8 score 116.17 rmsd 11.47 gap 28 (0.30%)
+Block  4 afp 10 score 108.42 rmsd 14.33 gap 89 (0.53%)
+Block  5 afp 32 score 334.92 rmsd 24.37 gap 202 (0.44%)
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:    1 MKKILAILSSLTLVSTGVFSTVLSCKKTLTPTTKPNTNNNKVLKNNSLDNIKTISAMLLKQAVLADMYGY
+              11111111111111                                222222222222222222222222
+Chain 2:   16 SYWQRVTLILELLQHKKKLKS-------------------------PQILVPTLFNLLSRCLEPLPQEQG
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:   71 NFDFLKSYFNNKNLNEQAKRYKLNTEIKDNITLSTDFEDALANYFSTNLVIKKNDNVNLDGIKGT----D
+              222222222222222            22222            333333333333333333333    3
+Chain 2:   61 NMEYTKQLILSCLLN------------ICQKLSPDGGKIP----KDVLDEEKFNVELIVQCVRLSEMAQT
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:  137 IDFLTSVLPKTVFGTT----SKQISAAISIILENISGAGITGLLDLAKNIDVNSKFSDFVKNLNVSKEL-
+              3333333333333333    333333333333333333333333     33333333333333333333 
+Chain 2:  115 HHHALLLLGTVAGIFPDKVLHNIMSIFTFMGANVMRLDDTYSFQ-----VINKTVKMVIPALIQSDSGDS
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:  202 ---ITTLL-----------------------------NTIFTNDKFLKELEEEINKFDALTLYKDFELSE
+                 33333                             333333333333333333333333333333333
+Chain 2:  180 IEVSRNVEEIVVKIISVFVDALPHVPEHRRLPILVQLVDTLGAEKFLWVLLILLFEQYVTKTVLAAAYGE
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:  240 LSNLALLNILDGINGILDKDYQLVSSDIKKNNGS------------------------------------
+              3333333333333333                                                      
+Chain 2:  250 KDAILEADTEFWFSVCCEFSVQHQIQSLMNILQYLLKLPEEKEETISKAVSNKSESQEEMLQIFNVETHT
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:  274 -TLNVKLWNTSKTFINKVAKFDQTSNVSTISSFSNSTSPTILPTNIKRNIKTAASLIRGLELFQYLFSLF
+               4444444444444444444                                                  
+Chain 2:  320 SKQLRHFKFLSVSFMSQLLSSNNFLKKVVESGGPEILKGLEERLLETVLGYINAVAQSMERNADKLTVKF
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:  343 DESRKDEFK------------ISDENIFDKSK-------------------------------KNSEFIK
+                                   55555555555                               5555555
+Chain 2:  390 WRALLSKAYDLLDKVNALLPTETFIPVIRGLVGNRLPSVRRKALDLLNNKLQQNISWKKTIVTRFLKLVP
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:  370 NIYKINGSTGGSNNGSNKIESLNGTSNGSTSKTTLNLKYIIDTLQYYLGNLDKSDKAYRLRQFIAILFSG
+              55555555 55555555555555                                     5555555555
+Chain 2:  460 DLLAIVQR-KKKEGEEEQAINRQ-------------------------------------TALYTLKLLC
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:  440 KYTENIYKPENNNNGNGSNEYKSFFFEFNGAPENKIKEIKLNGFQIFLTSILFESLSNIKLQNIKIESGI
+              5555555555555       5555555555     5555555555555555              66666
+Chain 2:  492 KNFGAENPDPFVPV------LSTAVKLIAPERKEEKNVLGSALLCVAEVTSTLQAL---------AVPQL
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:  510 FSLAKPFIEKINLKNFFESEVFLKKGLADFLISLMNLITDSFVYNQPLVNDNFDKILENLVTILKTLKFD
+              66666666666666666666666666666666666                6666666666666666666
+Chain 2:  547 PSLMPSLLTTMKNTSELVSSEVYLLSALAALQKVV----------------ETLPHFISPYLEGILSQVI
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:  580 DLLKALFNETNGIVSSLKSLIEKYVKFEDISKKIDEFIKKKETFSLVKVGIKSFI---------------
+              666666666666 6          66666666666666     666666666666               
+Chain 2:  601 HLEKITSEVGSASS----------QANIRLTSLKKTLA-----TTLAPRVLLPAIRKTYKQIEKNWKNHM
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:  635 ------PILGEKFFEYIYDGKVEQTFDTLANLSNDVLIRTLVEKLKIQIPAALNFILPYFKKIAMSLRTI
+                    6666666666666666666666666666                     6  666666666666
+Chain 2:  656 GPFMSILQEHIGVMKKEELTSHQSQLTAFFLEALDFRAQHSENDLEE--------VGRTENCIIDCLVAM
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:  699 FPPNVHLNLKNLFTIKLSDFIKLENKPNFGSDYLDKSI------------TTILNE--------------
+              66666666666666666666666666666666666666            666666              
+Chain 2:  718 VVKLSEVTFRPLFFKLFDWAKTEDAPKDRLLTFYNLADCIAEKLKGLFTLFAGHLVKPFADTLNQVNISK
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:  743 ------------------------LSGADGSGSKLKDLDN---------AYGFK-------IDSLKEFIN
+                                      6666666666666666         66666       666666666
+Chain 2:  788 TDEAFFDSENDPEKCCLLLQFILNCLYKIFLFDTQHFISKERAEALMMPLVDQLENRLGGEEKFQERVTK
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:  773 KIFK----------------YDYKWNGKDLENGNLISLLLNNPNKF---------KEIIGLTEEGMKKDS
+              6666                66666666666666666666666666         666666666666666
+Chain 2:  858 QLIPCIAQFSVAMADDSLWKPLNYQILLKTRDASPKVRFAALITVLALAEKLKENYIVLLPESIPFLAEL
+
+                  .    :    .    :    .    :
+Chain 1:  818 KSL----IDILSNKLIPNDKSKKQDSLQWFA
+              666    666666666666666666666666
+Chain 2:  928 MEDECEEVEHQCQKTIQQLETVLGEPLRSYF
+
+Note: positions are from PDB; the numbers between alignments are block index
+

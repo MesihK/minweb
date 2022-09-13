@@ -1,0 +1,23 @@
+Align syn840.pdb 213 with AF-Q5XE43-F1-model_v3.pdb 179
+Twists 1 ini-len 160 ini-rmsd 8.14 opt-equ 165 opt-rmsd 1.55 chain-rmsd 22.77 Score 416.97 align-len 198 gaps 33 (16.67%)
+P-value 8.10e-15 Afp-num 11102 Identity 28.28% Similarity 48.99%
+Block  0 afp 13 score 301.98 rmsd  1.50 gap 5 (0.05%)
+Block  1 afp  7 score 144.99 rmsd  2.48 gap 6 (0.10%)
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:   18 GQWFVISCQTGHEEKVLGDLQQKIKSASIEDEVFSIKISKANLVSKS---GKSSIKNKFPGYIFINMIMS
+              11111111111111111111111111111111111111111111111   11111111111111111111
+Chain 2:    7 KGWFVLQTYSGYENKVKENLLQRAQTYNMLDNILRVEIPTQTVNVEKNGQTKEIEENRFPGYVLVEMVMT
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:   85 EKAWFLIRNTPGVTGFIGSSGRGAKPSPLTTEETLNMLVPNLEEIEQAHEQEQQEENLKNEAVNKKELFT
+              111111111111111111111111111111111111111                          22222
+Chain 2:   77 DEAWFVVRNTPNVTGFVGSHGNRSKPTPLLEEEIRAILLSMG-----------------------QTIDV
+
+                  .    :    .    :    .    :    .    :    .    :    .
+Chain 1:  155 --ANFKVGDVVRVKSGIHENEEGTVKDMDFSKGVAFVAIEMFGRWTTLEVSFKNVEPI
+                2222222222222222222222222222  22222222222222222222222222
+Chain 2:  124 FDTNIKEGDVVQIIDGAFMGQEGRVVEIEN--NKVKLMLNMFGSETVAEVELYQIAEL
+
+Note: positions are from PDB; the numbers between alignments are block index
+

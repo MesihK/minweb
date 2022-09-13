@@ -1,0 +1,17 @@
+Align syn662.pdb 86 with AF-Q1WS99-F1-model_v3.pdb 88
+Twists 0 ini-len 80 ini-rmsd 0.30 opt-equ 86 opt-rmsd 0.47 chain-rmsd 0.30 Score 239.64 align-len 86 gaps 0 (0.00%)
+P-value 0.00e+00 Afp-num 3269 Identity 68.60% Similarity 82.56%
+Block  0 afp 10 score 239.64 rmsd  0.30 gap 0 (0.00%)
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:    1 MMQRNSRRVLIGKVVSDKMDKTITVLVETYKNHPIYKKRVKYSKKYKAHDENQVAQMGDKVEIMETRPLS
+              1111111111111111111111111111111111111111111111111111111111111111111111
+Chain 2:    2 SESRNQRKVYQGRVVSDKMDKTITVVVETYKNHKVYGKRVKYSKKFKAHDENNEAKVGDIVKIMETRPLS
+
+                  .    :    .
+Chain 1:   71 KTKNFRLVRVIEKATL
+              1111111111111111
+Chain 2:   72 ATKRFRLLEIVEKAVI
+
+Note: positions are from PDB; the numbers between alignments are block index
+

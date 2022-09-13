@@ -1,0 +1,32 @@
+Align syn108.pdb 370 with AF-Q45212-F1-model_v3.pdb 215
+Twists 5 ini-len 144 ini-rmsd 5.06 opt-equ 139 opt-rmsd 2.50 chain-rmsd 23.54 Score 225.08 align-len 269 gaps 130 (48.33%)
+P-value 3.42e-02 Afp-num 27721 Identity 5.58% Similarity 16.36%
+Block  0 afp  2 score 45.46 rmsd  1.05 gap 0 (0.00%)
+Block  1 afp  3 score 68.51 rmsd  2.11 gap 0 (0.00%)
+Block  2 afp  3 score 31.85 rmsd  6.23 gap 40 (0.62%)
+Block  3 afp  3 score 69.19 rmsd  1.95 gap 0 (0.00%)
+Block  4 afp  5 score 82.02 rmsd  3.99 gap 24 (0.38%)
+Block  5 afp  2 score 45.74 rmsd  1.14 gap 0 (0.00%)
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:   54 SRNELKEIVNSNNTTNSSTASSTAVMTSTSTTSTGTQPNNNDAKYASERLKALAANNF-----TKNKKQA
+              1111111111111111                    2222222222222222222222     3333333
+Chain 2:    6 SAIIMTLFMVFMSCNNGGPELKSDEVAKSDGT----VLDLAKISKKIKDAVEFAASVKEIETLVKSIDEL
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:  119 WDSLQNTSMTFYKKVEPTAVNVLGYEQITKDNVEKLEKNLKTVFLVFKDNTKETEKLEVELLPEINNGNK
+              3333333                                                               
+Chain 2:   72 AKTIGQKLTKDTGVLAADANN-------------------------------------------------
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:  189 VIDNGSLYLDLLEKPENLKLANQKSIIEVLRPEITKIKVVLQNTKNNNSTNKEDIKNTEVFNLLIKQLSI
+                                   4444444444444444444444444445555555555 55555555555
+Chain 2:   93 ---------------------NNGGLIAGVYGIVTDVGTKLDGLLKVNGISEDIKTKI-NDSKSKGTAFL
+
+                  .    :    .    :    .    :    .    :    .    :    .
+Chain 1:  259 YLANTVKYFNS-----ESGIITTNPTFSYKTRSNQIYDYIVKNKKDELYKKLETAFTSE
+              55555555        5555           55555555555 6666666666666666
+Chain 2:  141 SKVKGDDDLCKKDATDAHAKNAIDKNDNTGGKGKTELIALNTAIDELLKAANEAVEAAI
+
+Note: positions are from PDB; the numbers between alignments are block index
+

@@ -1,0 +1,26 @@
+Align syn447.pdb 167 with AF-Q6VN46-F1-model_v3.pdb 147
+Twists 4 ini-len 112 ini-rmsd 3.93 opt-equ 105 opt-rmsd 1.77 chain-rmsd 12.76 Score 211.47 align-len 175 gaps 70 (40.00%)
+P-value 4.82e-04 Afp-num 13554 Identity 1.71% Similarity 10.29%
+Block  0 afp  3 score 54.85 rmsd  3.75 gap 0 (0.00%)
+Block  1 afp  3 score 68.17 rmsd  1.40 gap 0 (0.00%)
+Block  2 afp  3 score 63.11 rmsd  2.05 gap 1 (0.04%)
+Block  3 afp  2 score 39.88 rmsd  1.80 gap 0 (0.00%)
+Block  4 afp  3 score 71.35 rmsd  0.73 gap 0 (0.00%)
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:    9 WLSEKQIILDQFIQNKWN----------------FKNDKTLLDKKLTAFLVELGEYANEERSFKYWSNKK
+              111111111111111111                2222222222222222222222222           
+Chain 2:   17 DYAANGGEVLNRLFKEYPDTLKLFPKFSGISQGDLAGSPAVAAHGATVLKKLGELLKAKGD---------
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:   63 PSDLEIQLDEYIDGIHFIISVGNQ-INYNFLEFNYNFLNKESIIDIYFEIISCLNSFIKENNNTNYSNLL
+                        33333333333333 33333333                                44444
+Chain 2:   78 ----------HAALLKPLANTHANIHKVALNNF--------------------------------RLITE
+
+                  .    :    .    :    .    :    .
+Chain 1:  132 NAFLNICEIKNYTQDQIINAYNIKNEINFQRQNNN
+              44444444444555555555555555555555555
+Chain 2:  106 VLVKVMAEKAGLDAAGQGALRRVMDAVIGDIDGYY
+
+Note: positions are from PDB; the numbers between alignments are block index
+

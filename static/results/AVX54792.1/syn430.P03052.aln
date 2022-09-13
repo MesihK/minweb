@@ -1,0 +1,18 @@
+Align syn430.pdb 113 with AF-P03052-F1-model_v3.pdb 101
+Twists 1 ini-len 80 ini-rmsd 2.80 opt-equ 84 opt-rmsd 2.15 chain-rmsd 10.00 Score 179.97 align-len 97 gaps 13 (13.40%)
+P-value 6.40e-06 Afp-num 5131 Identity 7.22% Similarity 24.74%
+Block  0 afp  8 score 162.04 rmsd  3.13 gap 1 (0.02%)
+Block  1 afp  2 score 47.93 rmsd  0.27 gap 0 (0.00%)
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:    9 EKTLELSELFKIYKELL--TDKQKQYFELYIDEDLSLSEIADEFNISKTAVYDSISKTSKLLFNLETKL-
+              11111111111111111  111111111111111111111111111111111111111111111111   
+Chain 2:    1 MKKRLTESQFQEAIQGLEVGQQTIEIARGVLVDGKPQATFATSLGLTRGAVSQAVHRVWAAFEDKNLPEG
+
+                  .    :    .    :    .
+Chain 1:   76 --------HLKQKQDLLISLINKIETN
+                      2222222222222222222
+Chain 2:   71 YARVTAVLPEHQAYIVRKWEADAKKKQ
+
+Note: positions are from PDB; the numbers between alignments are block index
+

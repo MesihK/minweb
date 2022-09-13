@@ -1,0 +1,18 @@
+Align syn27.pdb 137 with AF-Q6MUK4-F1-model_v3.pdb 137
+Twists 1 ini-len 128 ini-rmsd 1.07 opt-equ 132 opt-rmsd 0.87 chain-rmsd 4.72 Score 362.54 align-len 135 gaps 3 (2.22%)
+P-value 0.00e+00 Afp-num 5831 Identity 85.93% Similarity 88.15%
+Block  0 afp 14 score 333.54 rmsd  0.70 gap 1 (0.01%)
+Block  1 afp  2 score 41.68 rmsd  1.85 gap 0 (0.00%)
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:    1 MIKKYEVMYILDQDVKDTKELVTKLDAILAENGKILESNDLGLLDFTYEINHKKKGFYHVVIVEATTQAI
+              1111111111111111111111111111111111111111111111111111111111111111111111
+Chain 2:    1 MIKKYEVMYILDQDVKDTKELVSKLDAILAENGKILESNDLGLLDFTYEINHKKKGFYHVVIVEATTQAI
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .
+Chain 1:   71 KEFERIAKIDKNVVRTLVLNTENIQNYEQSVVLSKTDMTKYEEEQREKKNFRKPFIKREEAAVKE
+              11111111111111111111111111111111111111111111111   222222222222222
+Chain 2:   71 KEFERIAKIDKNVVRTLVLNTENIQNYEQSVVLSKTDMTKYEEEQRE---KKNFRKPFIKREEAA
+
+Note: positions are from PDB; the numbers between alignments are block index
+

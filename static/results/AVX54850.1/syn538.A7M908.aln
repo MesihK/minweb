@@ -1,0 +1,23 @@
+Align syn538.pdb 201 with AF-A7M908-F1-model_v3.pdb 176
+Twists 1 ini-len 104 ini-rmsd 3.55 opt-equ 129 opt-rmsd 3.10 chain-rmsd 5.00 Score 234.40 align-len 172 gaps 43 (25.00%)
+P-value 3.14e-05 Afp-num 10509 Identity 8.72% Similarity 23.84%
+Block  0 afp  7 score 147.87 rmsd  3.87 gap 12 (0.18%)
+Block  1 afp  6 score 100.50 rmsd  3.15 gap 19 (0.28%)
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:   43 KYNKFYFIVFYIISFISLVLAIISLVLFNLK---DKIFSQTSSESQKLYPTIVLNAISFVFLISKIIL-L
+              111 111111111111111111111111111   11111   11111111111111111111111111 1
+Chain 2:   12 LIPGSRRGSNFVWAFILFFGSLEFILVGTASYFSQNLIA---FFPQGMVMIFYGISGLFISLYLSSMLFW
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:  109 FIFLPRFAIKITENEILYL-----------GEKIEFQTITKIIEDTN-----TQALYINYKPTKRTYKRI
+              111111        22222           22222222222222222     222222222    22222
+Chain 2:   79 NVGGGYNQFDKTRGVICIFRWVFPGRNRRLLLRFFMKDIRSIRIEVKEGFYTRRLLYMDIR----GQKAI
+
+                  .    :    .    :    .    :
+Chain 1:  163 RYPKACPFN------QVIKNSTTNTSLEISNQ
+              2222222 2      22222222222222222
+Chain 2:  145 PLTRTDEVLTPVEIEKKAAELASFLCVPIEVL
+
+Note: positions are from PDB; the numbers between alignments are block index
+

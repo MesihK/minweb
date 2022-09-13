@@ -1,0 +1,18 @@
+Align syn424.pdb 147 with AF-Q8R3Q6-F1-model_v3.pdb 144
+Twists 1 ini-len 104 ini-rmsd 3.77 opt-equ 99 opt-rmsd 2.30 chain-rmsd 11.15 Score 250.74 align-len 129 gaps 30 (23.26%)
+P-value 5.04e-07 Afp-num 10068 Identity 3.88% Similarity 18.60%
+Block  0 afp  2 score 41.33 rmsd  2.12 gap 0 (0.00%)
+Block  1 afp 11 score 232.86 rmsd  3.54 gap 8 (0.08%)
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:   25 NYSKAVNLAIRMAKKQKAILEIFNEKDRLIKTYNFDQVLTQSELVEKIRTELKLAYAKKTVAKIELEKHH
+              111111111111111                      222222222222222222222222222222222
+Chain 2:   25 TIDDRIVHELNTTVPTASFAGK---------------IDASQTCKQLYESLMAAHVSRDRVIKNCIAQTS
+
+                  .    :    .    :    .    :    .    :    .    :    .
+Chain 1:   95 KKYKKALKSK--------NNLEKEQLKQIFKLAKLNYKNKKRQIKYIKFRYKIAKRNLK
+              2222222222        22222222222222222222222222222222222222222
+Chain 2:   80 AVVKSLREEREKNLDDLTLLKRLRKEQTKLKWMQSELNVEEVVNDRSWKVFNERCRVHF
+
+Note: positions are from PDB; the numbers between alignments are block index
+

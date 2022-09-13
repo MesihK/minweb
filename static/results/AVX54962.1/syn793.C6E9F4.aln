@@ -1,0 +1,23 @@
+Align syn793.pdb 181 with AF-C6E9F4-F1-model_v3.pdb 180
+Twists 1 ini-len 168 ini-rmsd 1.38 opt-equ 179 opt-rmsd 1.84 chain-rmsd 4.83 Score 487.83 align-len 180 gaps 1 (0.56%)
+P-value 0.00e+00 Afp-num 12927 Identity 19.44% Similarity 40.56%
+Block  0 afp 13 score 296.72 rmsd  1.47 gap 4 (0.04%)
+Block  1 afp  8 score 191.11 rmsd  1.30 gap 0 (0.00%)
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:    2 ILKETTINNYATALFNIAVKEKLVDDYIIQVDALIKSLKDKDEFNKLVSFSNKQEKQDAILIIENTFSSF
+              1111111111111111111111111111111111111111111111111111 11111111111111111
+Chain 2:    1 MSTNAIAKRYAKALVQLGSEAGTVDSFNTELDRFSALLTESRDLSAVFANPA-YGIESKREVMKELVAKL
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:   72 GFDIYLINALKILVENQLFINTRMILKVLYKKLLAYKNIVLGEVYSTEKLTKTQLNAIKKKISNKVNKKV
+              1111111111111111111111111111111111111111222222222222222222222222222222
+Chain 2:   70 QLSPMISNLLMLLLERGRISVLPEISQSYGAFADELSGVIRPTLSSGLPLEAGQIEEIRSALAKSTGKKV
+
+                  .    :    .    :    .    :    .    :
+Chain 1:  142 ELVNKIDPTLIGGIKVSVEDKVFDGSIKAKLEALKKQMNT
+              2222222222222222222222222222222222222222
+Chain 2:  140 ELKVEVDPSLIGGVVTKIGGKVFDGSVRTQLARIQDILQK
+
+Note: positions are from PDB; the numbers between alignments are block index
+

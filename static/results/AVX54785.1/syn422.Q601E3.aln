@@ -1,0 +1,12 @@
+Align syn422.pdb 65 with AF-Q601E3-F1-model_v3.pdb 64
+Twists 0 ini-len 56 ini-rmsd 0.65 opt-equ 64 opt-rmsd 0.68 chain-rmsd 0.65 Score 167.73 align-len 64 gaps 0 (0.00%)
+P-value 0.00e+00 Afp-num 1228 Identity 48.44% Similarity 71.88%
+Block  0 afp  7 score 167.73 rmsd  0.65 gap 0 (0.00%)
+
+                  .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:    1 MARRDALTGKSALSGQSRSHALNATKRKWNLNLQKVRVMDENGSVFNIKVSARTLRTLKKQEKI
+              1111111111111111111111111111111111111111111111111111111111111111
+Chain 2:    1 MARKDQISHRGPLSGNNRSHALNATKRKFNLNLQQITLKTASGKKIRLKVSAKTKKILRKWGHV
+
+Note: positions are from PDB; the numbers between alignments are block index
+

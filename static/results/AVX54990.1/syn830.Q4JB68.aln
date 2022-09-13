@@ -1,0 +1,17 @@
+Align syn830.pdb 86 with AF-Q4JB68-F1-model_v3.pdb 78
+Twists 0 ini-len 64 ini-rmsd 4.37 opt-equ 67 opt-rmsd 1.42 chain-rmsd 4.26 Score 175.90 align-len 77 gaps 10 (12.99%)
+P-value 7.21e-11 Afp-num 3826 Identity 6.49% Similarity 28.57%
+Block  0 afp  8 score 151.96 rmsd  2.25 gap 3 (0.04%)
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:   11 LLAIGLIIVSIILFILAICSVILIIYLYKKKKRQNNQLVL--KNNRKHSFWLLYLIFIIGLTSFLSAILL
+              11111111111111111111111111111111          1111111111111111111111111111
+Chain 2:    2 TLVTFIENLTSTVTEIGWSLFILAWAIGWALRGSPIPIFRIKRGGQDLLEDAIIAAFFLAIGSTIFYLIS
+
+                  .
+Chain 1:   79 MFLGISN
+              1111111
+Chain 2:   72 YIASQVS
+
+Note: positions are from PDB; the numbers between alignments are block index
+

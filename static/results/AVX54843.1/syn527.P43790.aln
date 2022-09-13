@@ -1,0 +1,23 @@
+Align syn527.pdb 172 with AF-P43790-F1-model_v3.pdb 174
+Twists 1 ini-len 120 ini-rmsd 2.76 opt-equ 153 opt-rmsd 3.20 chain-rmsd 9.11 Score 214.69 align-len 176 gaps 23 (13.07%)
+P-value 1.72e-05 Afp-num 9327 Identity 9.09% Similarity 24.43%
+Block  0 afp 13 score 201.87 rmsd  2.89 gap 29 (0.22%)
+Block  1 afp  2 score 36.94 rmsd  1.74 gap 3 (0.16%)
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:    1 MKLIFNQTDFKLKKHYELQGQLTDLDQIKSNNILIRSFDFISYDLDLDYNETLKMITVNGVINYTITGID
+              1111111111111 111111111111111111111111111111111111111111111 1111111111
+Chain 2:    6 LPLTVDPIKDAQR-RLDYVGYYAANQLERLAESVVNVLSDAQVTLSFYVDPQKLVVMKG-KVQIDVDLEC
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:   71 SRIGNEIKYSNYIDWNDEYSFT-----NSSDFNTNIIINE---EFNLKDYIIEQINLNIPFNLSLNNDIL
+              1111111111111 11111111     1111111111111   111111111111111111111111111
+Chain 2:   74 QRCNEPYKQTLEC-EFTYSPVANWDQADDLPEIYEPIEFNEFGEIDLIGTVEDELILALPLVPMHSSEHC
+
+                  .    :    .    :    .    :    .
+Chain 1:  133 NKYGLGWSLESEEEFQKSQANKIDPRWEQLDNIKID
+              11           222222222222 2222222222
+Chain 2:  143 EVSAQEQVFG---VLPEELAKKPNP-FAVLANLKQK
+
+Note: positions are from PDB; the numbers between alignments are block index
+

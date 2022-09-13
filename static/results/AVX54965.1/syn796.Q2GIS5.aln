@@ -1,0 +1,27 @@
+Align syn796.pdb 287 with AF-Q2GIS5-F1-model_v3.pdb 242
+Twists 0 ini-len 200 ini-rmsd 3.91 opt-equ 204 opt-rmsd 3.07 chain-rmsd 3.91 Score 469.84 align-len 275 gaps 71 (25.82%)
+P-value 1.24e-14 Afp-num 45925 Identity 14.18% Similarity 30.91%
+Block  0 afp 25 score 469.84 rmsd  3.91 gap 52 (0.21%)
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:   18 KFNGI------------LITILLVVIIVCTISIIYNKKVRNYNIDDKMPGFLVLVNVFVASVENIVVSIL
+              1111             11111111111111111111111111111111111111111111111111111
+Chain 2:    8 KVVRLLEIPMPFGMDISFTNCALFMILASLVSAVLLCCALRKRTDGSSSMSHTAVELIYNFVVGAIESNA
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:   76 GKKYQKLTPYIMYLFAYIFIGCLLSIL-GLEAQGTSFTVTLSMGMVTFIMIYYFGIKYQKLAFFKRFR--
+              111111111111111111111111111 111111111111111111111111111111111111111   
+Chain 2:   78 GVGGLRYIPFVLSIFLFVLACNIIGILPLGFTATSHVSVTLALSVVVCASVTVLGFNHQGLHFLRIFLPE
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:  143 ----------NPVELFTQFTPLISISFRLFGNLIGGSIILGLLYGLLIGFQLSWGVNNIEVDGMTRWASY
+                        111111111111111111111111111111111111111111                  
+Chain 2:  148 GTPLWLAPMMVFIKLFAYLARPVSLAIRLAANMIAGHTIIAVIAEFVLKMHPVL----------------
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .
+Chain 1:  203 AIWNPELVENGYLKQYEYWWAGLNLFTTPIMPFLHMYFDLFSGVIQSTVFAMLTLSYWSAQIDDN
+                                      11  1111111111111111111111111111111111111
+Chain 2:  202 ------------------------APLPFAFIMVLIAFEIFVAILQAYIFTVLTTVYLSDAVAGH
+
+Note: positions are from PDB; the numbers between alignments are block index
+

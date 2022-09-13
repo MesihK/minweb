@@ -1,0 +1,63 @@
+Align syn412.pdb 1384 with AF-D2RLC8-F1-model_v3.pdb 417
+Twists 1 ini-len 336 ini-rmsd 9.67 opt-equ 345 opt-rmsd 4.85 chain-rmsd 14.18 Score 721.17 align-len 714 gaps 369 (51.68%)
+P-value 2.88e-05 Afp-num 236543 Identity 6.72% Similarity 14.99%
+Block  0 afp 16 score 293.96 rmsd 11.87 gap 68 (0.35%)
+Block  1 afp 26 score 492.78 rmsd  8.03 gap 42 (0.17%)
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:    6 ASFKKVLRFIIVLILILALLTGIGFSSYKISNNISYGAKFVGGYQALVGVYDKTKNQEEEIPNGDAF-KG
+              1111111111111111111111111111111 111111 111111111111          111111 11
+Chain 2:    1 MESKNRAKLLVSVLAIVIAFAVFIKPLVSTV-KQGLDLQGGTHVVLQAQET----------PESKVDDDA
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:   75 AQSLEKKLSP-------FSDNTIETQQSGLSRVFIKASKKAYANNQDDFKNAIERT--------------
+              1111111111       1111111111     111111111111111111111111              
+Chain 2:   60 INRSIQIISRRVNELGLTEPVIQRQGK-----DKIIVELPGVKDPEQAIAMLGKTAMLEFKDMEGNTVLT
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:  124 GGLFILDK-----------NYQDIFFNENLMKIIGIDKVYDSSSDKRVAKKLTLEEFLGEAKAESLQPAN
+              1111111            1111111111111    111111111111                      
+Chain 2:  125 GKDLKDSKASADQSGQPVVTLQFNEDGAKKFA----DLTARNVGRQIAILLD------------------
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:  183 FSNKNSPFVSFNLKNDYLKNLIDPKKNKDNNALTMITSVGHIIENLRTYYKKANSTNNQVVEQYLNTYFN
+                                                                                    
+Chain 2:  173 ----------------------------------------------------------------------
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:  253 QIIKPIQDYISSKASSDPLGVKILKDLFTIEYSVPTTEGSQKNLNIQRNSLVDSDIVKWWNSNSKGKIDN
+                                                                                    
+Chain 2:  173 ----------------------------------------------------------------------
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:  323 TKDLKYVLFGTDNLNNKRSDHIFRFTNSANKYIYDANASEKDFIKDDKGNVGKYYNKLKISSDNSTSQDI
+                                                                       22222      22
+Chain 2:  173 ---------------------------------------------------------GKVLT------AP
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:  393 ELDYIDKVSNSLIKILMTEILFKKDTTDKDYVVNKNLDQNLFRNNILLHNNQISPENIRIVTTNPAIVTD
+              22            2 2222                    22 222                        
+Chain 2:  180 RVSEP---------ITGGNAQITGSKDAKEAEHLA-----ILLRSGS-----------------------
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:  463 RKTQTTKLYIPVWSNTMAKQVESDILQTSLGFTFKVLSIKEFSADITTIMLIITLACLVILALAVLVFML
+                                        22   222222222222222222222222222222222222222
+Chain 2:  213 --------------------------LP---VKLEVVENRTVGPTLGQDAKDASMKAFAIGLAGVFLFML
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:  533 FSYRLLGLFAIILAAISASLTMFVPIIFNMAIGPEIFMIMFVGIGLILDASIIYFENLKTHIYKEKLSPE
+              22222222222222222222222222222222222222222222222222222222222222 2222222
+Chain 2:  254 LYYRLSGLVADIVLLLYTLLLLAVMKGLNATLTLPGMAGIILSIGMAVDANVLIFERFKEEI-ANGKTLR
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:  603 SSFKISNKDTLPISLDTSFIILIPSVLLFIFGSGALKNLATISVINILIIILFVILGLRLLTWLVLKAKL
+              2222222222222222222222222222222222222222222222222222222222222222222222
+Chain 2:  323 AAVNSGFSRAFTTILDSNVTTLMAAAVLFYLGTGPIKGFAVTLALGVLISMFTAVTVTKFILGALIGSNF
+
+                  .    :
+Chain 1:  673 FTKYPWLLPLNTIK
+              22 22222222222
+Chain 2:  393 TK-NPAWFGAKAFQ
+
+Note: positions are from PDB; the numbers between alignments are block index
+

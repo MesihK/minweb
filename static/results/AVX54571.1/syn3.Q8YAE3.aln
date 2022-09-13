@@ -1,0 +1,22 @@
+Align syn3.pdb 180 with AF-Q8YAE3-F1-model_v3.pdb 191
+Twists 0 ini-len 160 ini-rmsd 2.62 opt-equ 176 opt-rmsd 2.68 chain-rmsd 2.62 Score 417.75 align-len 187 gaps 11 (5.88%)
+P-value 0.00e+00 Afp-num 10996 Identity 25.67% Similarity 41.71%
+Block  0 afp 20 score 417.75 rmsd  2.62 gap 23 (0.13%)
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:    1 MSKIKQIIIVEGKTDSDKLKSIYGNDLKTIQTKGLSLNKKTLEMIKEFNNKTGVIIFTDPDGAGKKIRQT
+              111111111111111111111111  11111111111111111111111111111111111111111111
+Chain 2:    4 KPVIHEFIVVEGRDDTTAINRSVI--ADTIETNGSALSQETIEKIRHAQELRGVIIFTDPDFPGEKIRKQ
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:   71 IIDYLDNKVLNAFIKKDD-ISKTSKKVGIAEASDDAIKKALDNLIIYDKNNVSLSWTDYINNDFYLK---
+              111111 11111111111 111111111111111111111111111111111111111111111111   
+Chain 2:   72 IDSAVP-GCKHAFINRQDALPKAGRGLGVEHASSANIREALENFHTSGAPTEKQFISKDILVHLGLLGGV
+
+                  .    :    .    :    .    :    .    :    .
+Chain 1:  137 ---SNRIVICKYFNFDNNISSKTLFKWLNWMNVSIDDIKKIIGEYES
+                 11111111111111 11111111111111111111111111111
+Chain 2:  141 GAKERREKIGNILKIGY-TNGKQLQTRLESFAISEEQLVAACQKIMQ
+
+Note: positions are from PDB; the numbers between alignments are block index
+

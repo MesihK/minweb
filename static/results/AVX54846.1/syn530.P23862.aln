@@ -1,0 +1,26 @@
+Align syn530.pdb 202 with AF-P23862-F1-model_v3.pdb 175
+Twists 4 ini-len 136 ini-rmsd 1.97 opt-equ 148 opt-rmsd 1.83 chain-rmsd 13.23 Score 312.74 align-len 206 gaps 58 (28.16%)
+P-value 3.36e-06 Afp-num 19038 Identity 5.83% Similarity 21.36%
+Block  0 afp  2 score 40.42 rmsd  2.00 gap 0 (0.00%)
+Block  1 afp  1 score 16.66 rmsd  2.21 gap 0 (0.00%)
+Block  2 afp  3 score 66.16 rmsd  1.31 gap 0 (0.00%)
+Block  3 afp  4 score 94.04 rmsd  2.40 gap 2 (0.06%)
+Block  4 afp  7 score 165.03 rmsd  0.96 gap 5 (0.08%)
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:    1 MTDFILIRNSFFKNNVSKIQKTKYLNMTINWSFSDFEDILNKPNFITYLQNSSKLNFSYLMIDAIENKIN
+              11111111111111111111                 2222222222 2                   33
+Chain 2:    6 LLEKLEGQLATLRQRCAPVSQ----------------FATLSARFDRHLFQTRAT-------------TL
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:   71 QIRNLFKKTNTACIDYLLKTNNTNFIEINYKKFLLTSYTLLRDFINQIFINWIFNDALNNHWIEFNKAYD
+              3333333333333333333334444444444444444444444444 44444                55
+Chain 2:   47 QACLDEAGDNLAALRHAVEQQQLPQVAWLAEHLAAQLEAIAREASA-WSLREWDSAPP----------KI
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .
+Chain 1:  141 NNLMFNYQFERLELDFQKNLFNIIKAINKKIN----DPVIRILISAYIEDINNKQTYLNQIHKNLK
+              55555555555555555555555555555555    555555555555555555555555555555
+Chain 2:  106 ARWQRKRIQHQDFERRLREMVAERRARLARVTDLVEQQTLHREVEAYEARLARCRHALEKIENRLA
+
+Note: positions are from PDB; the numbers between alignments are block index
+

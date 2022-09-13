@@ -1,0 +1,17 @@
+Align syn499.pdb 93 with AF-Q7MA29-F1-model_v3.pdb 85
+Twists 0 ini-len 80 ini-rmsd 0.67 opt-equ 84 opt-rmsd 1.02 chain-rmsd 0.67 Score 236.16 align-len 84 gaps 0 (0.00%)
+P-value 0.00e+00 Afp-num 3087 Identity 59.52% Similarity 71.43%
+Block  0 afp 10 score 236.16 rmsd  0.67 gap 0 (0.00%)
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:   10 FASKKGVGSTKNGRDSESKRLGAKKSDGQFTNAGSIIYRQRGTKIHPGLNVGRGGDDTLFALIAGTVKYE
+              1111111111111111111111111111111111111111111111111111111111111111111111
+Chain 2:    1 MAHKKGQGSTQNNRDSAGRRLGVKKFGGEFVRAGNIIIRQRGTKVHPGSNVGMGTDHTIFALIDGIVKFE
+
+                  .    :
+Chain 1:   80 KFGKNRTRVSVIPN
+              11111111111111
+Chain 2:   71 RKDKERKKVSIYPA
+
+Note: positions are from PDB; the numbers between alignments are block index
+

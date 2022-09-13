@@ -1,0 +1,30 @@
+Align syn250.pdb 229 with AF-P72686-F1-model_v3.pdb 224
+Twists 3 ini-len 176 ini-rmsd 5.32 opt-equ 192 opt-rmsd 3.80 chain-rmsd 19.09 Score 367.33 align-len 235 gaps 43 (18.30%)
+P-value 1.63e-05 Afp-num 32764 Identity 8.09% Similarity 20.43%
+Block  0 afp  5 score 96.40 rmsd  3.70 gap 4 (0.09%)
+Block  1 afp  7 score 132.85 rmsd  3.95 gap 4 (0.07%)
+Block  2 afp  4 score 78.06 rmsd  2.33 gap 13 (0.29%)
+Block  3 afp  6 score 129.52 rmsd  2.57 gap 9 (0.16%)
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:    1 MNKKEIFNTDFFESGLAYILTNLDFIQEELEQEKLQTSLVEKLITDFEDVEDYETWDLLTNNLIQSEDKI
+              1   11 11111111111111111111111111111111111111      2222222222222222222
+Chain 2:   15 SYFEQALKRVEQDVLRMGALVEESFRMSHQALFENRLETPLKIAE------LEKEIDRLYRHIEQECASF
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:   71 LEEIQKIKDSTKFNLLNSYFLAKNLAIYLKSNSFLIEQINKLQTNSPDDLSEDKKEEFINNLKQEILKNN
+              222 2222222222222222222222222   222222222222         33333333333333333
+Chain 2:   79 LTL-QAPVAQDLRLLSAIMQLVRDLERIG---DYAQDLGEIAMKLTRYP----PHPCMDEIAAMAWQAQH
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:  141 SELYKQNERLFKEIFDKKVEFKKIYQLLIKETEFEDFNYANELLFNMLNNNFKFN------NKQDLLKLE
+              333333333333333         3333333     4444444444444444444      444444444
+Chain 2:  141 MLDQSLVCLTQLDPN---------AGEIVKK-----MDDVVDDAYDRLYKTLAFQRDIKGVVEPILLMAL
+
+                  .    :    .    :    .
+Chain 1:  205 VLNNAQSLIDFLTFYESSLFDDEKE
+              4444444444444444444444444
+Chain 2:  197 VIRHLERMADHATNIAQRVSYIVTG
+
+Note: positions are from PDB; the numbers between alignments are block index
+

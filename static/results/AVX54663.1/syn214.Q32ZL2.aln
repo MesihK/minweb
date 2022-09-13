@@ -1,0 +1,34 @@
+Align syn214.pdb 273 with AF-Q32ZL2-F1-model_v3.pdb 321
+Twists 2 ini-len 184 ini-rmsd 2.30 opt-equ 199 opt-rmsd 2.92 chain-rmsd 15.68 Score 394.86 align-len 318 gaps 119 (37.42%)
+P-value 2.30e-06 Afp-num 46703 Identity 7.23% Similarity 20.13%
+Block  0 afp  4 score 87.40 rmsd  2.17 gap 0 (0.00%)
+Block  1 afp  5 score 97.04 rmsd  1.98 gap 5 (0.11%)
+Block  2 afp 14 score 279.26 rmsd  2.43 gap 43 (0.28%)
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:    3 NKINHYYIYSGIVFIILISLFILGSVYDFKIA------------------SFKRAENLS--LAVFISNLG
+              1111111111111111111111111111                      222222222  222222222
+Chain 2:    2 PLLPAALTSSMLYFQMVIMAGTVMLAYYFEYTDTFTVNVQGFFCHDSAYRKPYPGPEDSSAVPPVLLYSL
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:   53 VV-IPSIPLTIALIYLIKSLKLKNKLKINNIIETLIYFIIPLVFIVFNFFYEKQSIVYSIISNLLCLIII
+              22 222222222222222222222222                                           
+Chain 2:   72 AAGVPVLVIIVGETAVFCLQLATRDFENQEKTILTGDCCYI-----------------------------
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:  122 SSLIYYFHINKEIISDPDLSIYKSIIVLITIIGLLILVNILKLTFNRPRPTNLELYRNWWNIKWT-----
+                           33333333333333333333333333333333333333333                
+Chain 2:  113 -------------NPLVRRTVRFLGIYTFGLFATDIFVNAGQVVTGNLAPHFLALCKPNYTALGCQQYTQ
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:  187 ---------------SWKHNSFPSGHTYSATTLL-FVLLLFNKIN------KKTYLWISFTWLIIIIVAM
+                             3333333333333333333 3333333333      3333333333333333333
+Chain 2:  170 FISGEEACTGNPDLIMRARKTFPSKEAALSVYAAMYLTMYITNTIKAKGTRLAKPVLCLGLMCLAFLTGL
+
+                  .    :    .    :    .    :    .
+Chain 1:  235 SRIVLNKHFLTDVVFSMLLSFTILTTILIINQKKGKLF
+              33333333333333333333333333333333333333
+Chain 2:  240 NRVAEYRNHWSDVIAGFLVGISIAVFLVVCVVNNFKGR
+
+Note: positions are from PDB; the numbers between alignments are block index
+

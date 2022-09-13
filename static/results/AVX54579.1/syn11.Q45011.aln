@@ -1,0 +1,48 @@
+Align syn11.pdb 548 with AF-Q45011-F1-model_v3.pdb 341
+Twists 1 ini-len 272 ini-rmsd 4.74 opt-equ 332 opt-rmsd 3.32 chain-rmsd 14.84 Score 516.59 align-len 521 gaps 189 (36.28%)
+P-value 8.93e-09 Afp-num 60239 Identity 12.67% Similarity 23.99%
+Block  0 afp  3 score 68.34 rmsd  2.68 gap 0 (0.00%)
+Block  1 afp 31 score 477.74 rmsd  3.17 gap 242 (0.49%)
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:    1 MKKLLTVLTTFIGISGSVSMVISCKVPTFAEGILGQRVLVVTDGGNIRDKTFNESSWEGVIKYGSQIHSN
+              1111111111111111111111111        22222222222 2222222222222222222222   
+Chain 2:    1 MRIVIFIFGILLTSCFSRNGIESSS--------KKIKISMLVDG-VLDDKSFNSSANEALLRLKKDF---
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:   71 FDIKNELEARQFNYKSSIGGHTKWDETKHMFINEDYEYAKQNSNNYVETPDHTIDAFRTSYNTAIYKKAD
+                       22222                             222222222222222222222222222
+Chain 2:   59 ---------PENIE-----------------------------EVFSCAISGVYSSYVSDLDNLKRNGSD
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:  141 ALLLAGFGHLGAVDYAADRMKKAGNKTVVFLDAQY-----KKDNVISVIFNSELAGFNAGWDAIMWANLP
+              222222222222222222222   22222222222     222222222222222222222222222   
+Chain 2:   91 LIWLVGYMLTDASLLVSSENP---KISYGIIDPIYGDDVQIPENLIAVVFRVEQGAFLAGYIAAKKS---
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:  206 KMTSLNSGEFSKEAIDASNSKTDMVLQGSATGNKYISIGMFGGITNKNAVDNYMWGLLAAMHVYNNKFAG
+                                               22222222222222 222222222222222222    
+Chain 2:  155 ---------------------------------FSGKIGFIGGMKGN-IVDAFRYGYESGAKYANK----
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:  276 KEIELTDNKENKVKYKLQPVYYANLGSKAEVEKLNDVNESSWFSKGFDVGGAKKSGIVDSLIKNQADIIF
+                                222222                 2222222222222 222222222222222
+Chain 2:  187 ------------------DIEIIS-----------------EYSNSFSDVDIGR-TIASKMYSKGIDVIH
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:  346 PVAGPQINDVLESTGHK---PYVIGVDTDQVTSVGSSKKGNETRFITSAKKNIVSASVYALNRARSLQKA
+              22222222222222222   2222222222222       222222222222222222222222      
+Chain 2:  221 FAAGLAGIGVIEAAKNLGDGYYVIGADQDQSYL-------APKNFITSVIKNIGDALYLITGEY------
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:  413 IIKDKTYTSKHEKEIKDGTTLVGE-QADWSISSSRKADTKWSVEKVNGSLTNAANLSVESIDYSKDKAKE
+                      2222222222222222 222222222222                    2222222222222
+Chain 2:  278 --------IKNNNVWEGGKVVQMGLRDGVIGLPNANE--------------------FEYIKVLERKIVN
+
+                  .    :    .    :    .    :
+Chain 1:  482 IEKNLKETLLKSGETFKQYLTKTSLDKALES
+              22222  222       22222222222222
+Chain 2:  320 KEIIV--PCN-------QEEYEIFIKQILKL
+
+Note: positions are from PDB; the numbers between alignments are block index
+

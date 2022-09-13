@@ -1,0 +1,18 @@
+Align syn521.pdb 138 with AF-A6LTT3-F1-model_v3.pdb 150
+Twists 1 ini-len 96 ini-rmsd 2.20 opt-equ 100 opt-rmsd 2.09 chain-rmsd 12.95 Score 276.70 align-len 116 gaps 16 (13.79%)
+P-value 3.09e-08 Afp-num 7405 Identity 18.97% Similarity 37.93%
+Block  0 afp  3 score 54.84 rmsd  3.49 gap 0 (0.00%)
+Block  1 afp  9 score 208.99 rmsd  1.55 gap 0 (0.00%)
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:   24 LTDSDIFEQESPVLKDSYTQTSNQFNQNHQTNTSNMNQTD-MNKSPINTYVFSPMKFSEVQSIVDTLLDQ
+              1111111111111111111111111                22222222222222222222222222222
+Chain 2:   13 GFEDYEEYDEYEEEQYEEQVKDEDEIEPVITNKKNSKVVNIHTSSTTKVTITKPIDYEEATEICEALKNR
+
+                  .    :    .    :    .    :    .    :    .
+Chain 1:   93 KVVVVDFKNLDDNKAKRFKDFLSGVLYIKKGEYIRLNENIYKFIIN
+              2222222222222222222222222222222222222222222222
+Chain 2:   83 RIVLVNTTVLELKIAQRLLDFISGSCYALGGELQQIEKGVYILSPS
+
+Note: positions are from PDB; the numbers between alignments are block index
+

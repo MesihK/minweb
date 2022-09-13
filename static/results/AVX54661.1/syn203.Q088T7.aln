@@ -1,0 +1,28 @@
+Align syn203.pdb 297 with AF-Q088T7-F1-model_v3.pdb 207
+Twists 1 ini-len 192 ini-rmsd 3.35 opt-equ 204 opt-rmsd 1.54 chain-rmsd 8.23 Score 531.07 align-len 220 gaps 16 (7.27%)
+P-value 0.00e+00 Afp-num 20544 Identity 30.91% Similarity 52.27%
+Block  0 afp 22 score 514.41 rmsd  1.25 gap 9 (0.05%)
+Block  1 afp  2 score 46.65 rmsd  1.10 gap 0 (0.00%)
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:    1 MKKGKMIIISGPSGVGKGSVNGELLQNPDLRLKYSVSMTTRKPRNGEINGVNYFFVSNEEFAKAIVNDEL
+              1111111111111111111111111111111111111111111111111111111111111111111111
+Chain 2:    2 STRGNLFIVSAPSGAGKSSLISTLLKDKPSDKQVSVSHTTRKPRPGEVDGQHYHFITVEQFKALIAQNAF
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:   71 IEYAHFVGNSYGTPRKYVEQELKKGNNVILEIEVDGATQVLNKEANVLSIFLMPPNLTELANRIRGRQTE
+              1111111111111111111111111111111111111111111111111111111111111111111111
+Chain 2:   72 IEWAEVFGNFYGTSKLVIEQTLDKGIDVFLDIDWQGAEQVKKLMETAIGVFILPPSKAELERRLTGRGQD
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:  141 DEEKIKARLDKALLEIPLKHNYQYVIENDNVANAVAKITDVLHLEGLTDIKTPTVYERLEQIVEQIVKEK
+              1111111111111111111111111111111111111111111111                22222222
+Chain 2:  142 SQQVIDSRMAQAVSEMSHYAQYEFIIVNDDFDNALADLSAIIRSQRL---------------TCASQQHA
+
+                  .    :
+Chain 1:  211 YMYFVNNWET
+              2222222222
+Chain 2:  197 QNDMIVDLLA
+
+Note: positions are from PDB; the numbers between alignments are block index
+

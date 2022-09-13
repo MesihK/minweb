@@ -1,0 +1,18 @@
+Align syn778.pdb 83 with AF-Q83G86-F1-model_v3.pdb 75
+Twists 1 ini-len 64 ini-rmsd 1.52 opt-equ 64 opt-rmsd 1.34 chain-rmsd 4.27 Score 169.08 align-len 83 gaps 19 (22.89%)
+P-value 1.54e-07 Afp-num 4334 Identity 13.25% Similarity 26.51%
+Block  0 afp  5 score 119.09 rmsd  1.23 gap 0 (0.00%)
+Block  1 afp  3 score 67.95 rmsd  1.92 gap 0 (0.00%)
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:    1 MLLMLVVKTELIVNLGVLGFGILFILLGLFLFWKQKNKNRYGFENQNRESKNAWEFVKKNFYLLVLTIGF
+              1111111111111111111111111111111111111111                   22222222222
+Chain 2:    1 MGSVLAEVAGSLASIGYGLAAIGSAIGVGIVVGKTVESVARQPELAKRLTV--------LMYVGVAFTEA
+
+                  .    :
+Chain 1:   71 LFIITAIITLITK
+              2222222222222
+Chain 2:   63 LALIGIGTYFLFR
+
+Note: positions are from PDB; the numbers between alignments are block index
+

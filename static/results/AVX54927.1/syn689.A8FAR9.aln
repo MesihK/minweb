@@ -1,0 +1,17 @@
+Align syn689.pdb 98 with AF-A8FAR9-F1-model_v3.pdb 96
+Twists 0 ini-len 88 ini-rmsd 1.65 opt-equ 95 opt-rmsd 1.32 chain-rmsd 1.65 Score 250.25 align-len 98 gaps 3 (3.06%)
+P-value 0.00e+00 Afp-num 3094 Identity 23.47% Similarity 48.98%
+Block  0 afp 11 score 250.25 rmsd  1.65 gap 6 (0.06%)
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:    1 MSNRFNKEFWKELAHDFMFELNDEELENLMSVEDKLFDDFKKITSIDTTDVEPTFYTVNQIHSYLRDDEP
+              11  111111111111111111111111111111111111111111111111111111 11111111111
+Chain 2:    2 SR--ISIEEVKHVAHLARLAITEEEAEMFTEQLDSIISFAEQLNEVDTENVEPTTHVL-KMKNVMREDVP
+
+                  .    :    .    :    .
+Chain 1:   71 IQTNCQKEILENAPTKHDDYITIARVVK
+              1111111111111111111111111111
+Chain 2:   69 NKGLSIEAVIKNAPDHKDGYIRVPSILD
+
+Note: positions are from PDB; the numbers between alignments are block index
+

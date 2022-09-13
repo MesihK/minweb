@@ -1,0 +1,49 @@
+Align syn133.pdb 757 with AF-P28842-F1-model_v3.pdb 420
+Twists 2 ini-len 264 ini-rmsd 3.27 opt-equ 312 opt-rmsd 2.96 chain-rmsd 15.87 Score 456.71 align-len 504 gaps 192 (38.10%)
+P-value 6.45e-05 Afp-num 100239 Identity 10.32% Similarity 21.23%
+Block  0 afp  2 score 44.84 rmsd  1.35 gap 0 (0.00%)
+Block  1 afp  2 score 30.80 rmsd  4.19 gap 28 (0.64%)
+Block  2 afp 29 score 435.85 rmsd  3.29 gap 131 (0.36%)
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:  102 KKIVKKQVITYCLTQKD-------LQEAIKRLDTITNILKKTHFKRIDNNLINLIANEQYLPIKKEIQKY
+              1111111111111111        2222222                    222    2222222222  
+Chain 2:    7 IFTTAMLAVTLMMPAMGVSANEGNAAAEGNEKFRVL---------------VDSVDQKNLKNAKQQYGVH
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:  165 EFLSRTAFISTLVDLNYIEEIFIKTTHIDNNVDSVVTLYDTGIKAIDLLNKLDINVNMSDFIDDYTLFL-
+                                                                           33333333 
+Chain 2:   62 WD-----------------------------------------------------------FAGEGFTTD
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:  234 ----DRNQYNELKTKAPFLISMSVDDLTKFIID---DKQEEITKNDIISIPDPT----------------
+                  33333333      3   33333333333   3333333333                        
+Chain 2:   73 MNEKQFNALKKN------KNLTVEKVPELEIATATDKPEALYNAMAASQSTPWGIKAIYNNSSITQTSGG
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:  281 NEPIVGVIDTMFCKDVYF-SKWVDFRKEVSDDILLDS----KDYQHGTQVSSIIVDGPSFNKKLEDGCGR
+              333333333333333333 3333333333333         3333333333333333         3333
+Chain 2:  137 GGINIAVLDTGVNTNHPDLRNNVEQCKDFTVGTTYTNNSCTDRQGHGTHVAGSALADGGTGNGVYGVAPD
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:  346 FRVRHFGVMA-HSSGNVFSLFKKIKSIVINNL--DIKVWNLSLGSIREVSSNYISLLGSLLDQLQYENDV
+              3333333333 333333333333333333333  333333333333333    3333333333333 333
+Chain 2:  207 ADLWAYKVLGDDGSGYADDIAAAIRHAGDQATALNTKVVINMSLGSSGE----SSLITNAVNYSYN-KGV
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:  413 IFIVAGTNDNECKQKIVGSPADSINSIVVNSVDFK-----NKPANYSRKGPVLT------YFNKPDISYY
+              333333333 3333333333333333333333333     33333333333  3      3333333333
+Chain 2:  272 LIIAAAGNS-GPYQGSIGYPGALVNAVAVAALENKVENGTYRVADFSSRGYSWTDGDYAIQKGDVEISAP
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:  472 GGVDNNKITVCGCY-GEAKVQGTSFAAPWITRKVAYLIYKMN-YSKEEAKALIIDSAIKFDKQKDNN---
+              33    33333333 333333333333333333333333333 3333333333333333   3 333   
+Chain 2:  341 GA----AIYSTWFDGGYATISGTSMASPHAAGLAAKIWAQYPSASNVDVRGELQYRAYENDILSGYYAGY
+
+                  .    :
+Chain 1:  537 --RDLIGYGVVPIH
+                333333333333
+Chain 2:  407 GDDFASGFGFATVQ
+
+Note: positions are from PDB; the numbers between alignments are block index
+

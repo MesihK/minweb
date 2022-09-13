@@ -1,0 +1,12 @@
+Align syn105.pdb 71 with AF-B9JSL3-F1-model_v3.pdb 83
+Twists 0 ini-len 64 ini-rmsd 0.66 opt-equ 65 opt-rmsd 0.67 chain-rmsd 0.66 Score 190.47 align-len 65 gaps 0 (0.00%)
+P-value 0.00e+00 Afp-num 3358 Identity 15.38% Similarity 52.31%
+Block  0 afp  8 score 190.47 rmsd  0.66 gap 0 (0.00%)
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .
+Chain 1:    2 SNKSKSYDELISEIKEDTKKLSSNEISVEQAMEIFEQNIEKIKLAKEKLTQYKGQIYKVMQDDEL
+              11111111111111111111111111111111111111111111111111111111111111111
+Chain 2:    8 DIAAYSFEKAVAELESIVARLERGDVALDESISIYERGELLKKHCEALLSAAENRIEKIRLDRAG
+
+Note: positions are from PDB; the numbers between alignments are block index
+

@@ -1,0 +1,17 @@
+Align syn365.pdb 127 with AF-B5RD82-F1-model_v3.pdb 115
+Twists 0 ini-len 112 ini-rmsd 1.42 opt-equ 112 opt-rmsd 1.12 chain-rmsd 1.42 Score 325.97 align-len 112 gaps 0 (0.00%)
+P-value 0.00e+00 Afp-num 5123 Identity 43.75% Similarity 66.96%
+Block  0 afp 14 score 325.97 rmsd  1.42 gap 0 (0.00%)
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:   11 SKFDIINNQLRNDLIDFRSGDTIRVDVKIKEGDKFRIQSFEGLVIKTQGSGITYSVVVRKMSNGVFVERT
+              1111111111111111111111111111111111111111111111111111111111111111111111
+Chain 2:    4 IIKQLEQEQMKQNVPSFRPGDTVEVKVWVVEGTKKRLQAFEGVVIAIRNRGLHSAFTVRKISNGEGVERV
+
+                  .    :    .    :    .    :    .    :
+Chain 1:   81 FPLHSPIIDSVTLIKRGKVRRSRIYYIRNLSGKAARIKEIMP
+              111111111111111111111111111111111111111111
+Chain 2:   74 FQTHSPVVDSIAVKRRGAVRKAKLYYLRERTGKAARIKERLN
+
+Note: positions are from PDB; the numbers between alignments are block index
+

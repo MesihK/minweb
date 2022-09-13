@@ -1,0 +1,43 @@
+Align syn708.pdb 487 with AF-Q49410-F1-model_v3.pdb 368
+Twists 1 ini-len 288 ini-rmsd 4.29 opt-equ 361 opt-rmsd 2.64 chain-rmsd 11.17 Score 639.17 align-len 474 gaps 113 (23.84%)
+P-value 2.67e-13 Afp-num 55879 Identity 17.93% Similarity 34.18%
+Block  0 afp  2 score 44.65 rmsd  1.89 gap 0 (0.00%)
+Block  1 afp 34 score 597.90 rmsd  1.72 gap 151 (0.36%)
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:    4 NKLKVALGTMLSAVSIASVGSFVVACQTKEDWDTTITINNSWVNDGFFSKLDYDTGAVTPGDKSKAFIEL
+              1111111111111111111111      222222222222 22222222             22222222
+Chain 2:    1 MLFKKFTWVIPSLFLTIISTSLLISC--ATKSDNTLIFNI-SLDHNADT-------------SIEKFFTV
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:   74 LTKKFNELKNKDEATKKFKDVKFDIKVDFDKKTYFSKLEKNDSENDVYIANYSYYLSNVWNNKTKSLNKD
+              2222222222        222222222222222222222222  222222222222          2222
+Chain 2:   55 FSKKLSGKLN--------KKINVNFNIVDDSFTKINNIQANK--ADFAFVNSQAIA----------SNNW
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:  144 LPFKLVSQAATLQFNWQSGDNTFYKDGKSTDDLRKLAEENNKKWLEFGEYPDWHKSDKAVNGKKLDFDGS
+              22222222222222222222 22222    2222222222222222 22222222       22222222
+Chain 2:  105 FGYTPLIQTLTTAFKEDLEL-DYYED----GNLQKKAEKTNLLFLS-PPYKEWDD-------IKQKWTGN
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:  214 KYTNFYKDVDLTYVYRGAVLIAGNEADREKIVKAWDDKNWDSFVKNGIVYEKTSSAGGYKYQVALFARHF
+              2222222222222222222222222222222222222222222222222222222222222222222222
+Chain 2:  162 RYDFLYEPSKLVSFYRSMILITGSASEITAIKKAWNEKNWNQFMKFGIGHGQTNSASRFELPDLLFRKHF
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:  284 GKTISEIKEDLEGKKYEQYIVKGQKVSAQLGKKQANSQLVPRIGFDDEGSYNWTKSEE--GSEKYKPTDF
+              22222222222  22222222 22222222222      2222222222222222222  2222222222
+Chain 2:  232 AKNYPGLQNAI--NSDPDKFA-VVRGREIGINK------NIKIVFDDANSFSWTQNIKGSKRPFYTPIDP
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:  352 KSTEKAMNGGKAMMTAAKPAAAKPAAAPAAPAPAAKPEANGMKDKNGAVVRTLTMTNPAGYDVVLARKGL
+                                                            222222222222222222222222
+Chain 2:  293 ----------------------------------------------NDRLEILTYSDPLLYDIGIVSNNL
+
+                  .    :    .    :    .    :    .    :    .    :
+Chain 1:  422 LDKQVELLSKALNSLSL-TENTYGIYTGYNKFMPLSNELFEKLVKLQVQAESTE
+              22222222222222222 222222222222222222 2222222222222 222
+Chain 2:  317 SRIYQKAIGEIFIELAQSSEDLYGPSIGYNGYKMIN-DFEKEVVEIIEKT-YGK
+
+Note: positions are from PDB; the numbers between alignments are block index
+

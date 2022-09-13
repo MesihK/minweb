@@ -1,0 +1,23 @@
+Align syn128.pdb 142 with AF-A7Z9T5-F1-model_v3.pdb 175
+Twists 1 ini-len 104 ini-rmsd 2.96 opt-equ 110 opt-rmsd 3.12 chain-rmsd 20.86 Score 251.42 align-len 164 gaps 54 (32.93%)
+P-value 6.12e-06 Afp-num 9007 Identity 15.24% Similarity 32.32%
+Block  0 afp  9 score 167.83 rmsd  2.84 gap 9 (0.11%)
+Block  1 afp  4 score 84.53 rmsd  3.20 gap 0 (0.00%)
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:    2 SKVRNLDLVYSYLQSTKTPSSLNEIWKSISKDIISQKKDEISVIADLYGDMVLDNRFALTTDNLWALSSN
+              11111111111111111111111111111111111 1111111111111111111111111111111111
+Chain 2:   12 KQMALVEIAHEIFSEHKKPVPFQELLNEMISLLGVTKEELGDRIAQFYTDLNIDGRFIALSDQTWGLRSW
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:   72 S---SVENIKKQYDDFINTDHKHRYSDSDEELTIDDEM-----------------------LLDEDYDSD
+              1   1111111                                                  222222222
+Chain 2:   82 YPYDQLDEETQPTVKAKKKKAKKVVEEDLDLDEFEEVDEDDIDLDEIEEDIDLEADSFDDEDIDEEDDDE
+
+                  .    :    .    :
+Chain 1:  116 FTQELDDFDEDFDDTDQTYIDDDE
+              222222222222222222222222
+Chain 2:  152 LEIEDEMIEEDEEDYDDEEEDRKD
+
+Note: positions are from PDB; the numbers between alignments are block index
+

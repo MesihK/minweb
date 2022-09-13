@@ -1,0 +1,22 @@
+Align syn548.pdb 181 with AF-Q74Y93-F1-model_v3.pdb 162
+Twists 0 ini-len 136 ini-rmsd 1.27 opt-equ 156 opt-rmsd 1.87 chain-rmsd 1.27 Score 364.64 align-len 165 gaps 9 (5.45%)
+P-value 0.00e+00 Afp-num 8979 Identity 33.33% Similarity 50.91%
+Block  0 afp 17 score 364.64 rmsd  1.27 gap 28 (0.17%)
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:    5 KINIVLYQPEIAQNVGAIMRTCVAINARLHIIEPLGFIFDDRHLSRPSANEYKYVDCIRYDDWNDFITKH
+              1111111111111111111111111111111111111111111111111111111111111111111111
+Chain 2:    1 MLNIVLFEPEIPPNTGNIIRLCANTGCQLHLIKPLGFTWDDKRLRRAGLDYHEFADIKHHHDYQAFLDSE
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:   75 PN-----ITLFCLSRYGQKPISDFDFSKINDNVYLVFGKESTGIAKPILKEH-YNTTFRIPMISETRSLN
+              11     1111111111111111111   11111111111111111111111 11111111111111111
+Chain 2:   71 KLDSTQPARLFALTTKGTPAHSAVSY---QANDYLLFGPETRGLPAYILDALPAQQKIRIPMQADSRSMN
+
+                  .    :    .    :    .
+Chain 1:  139 IANTVGIASYEVLRQWDYLDLVKYE
+              1111111111111111111111111
+Chain 2:  138 LSNAVSVVVYEAWRQLGYPGALLKE
+
+Note: positions are from PDB; the numbers between alignments are block index
+

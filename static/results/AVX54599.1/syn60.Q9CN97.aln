@@ -1,0 +1,31 @@
+Align syn60.pdb 274 with AF-Q9CN97-F1-model_v3.pdb 206
+Twists 4 ini-len 184 ini-rmsd 4.38 opt-equ 192 opt-rmsd 3.09 chain-rmsd 18.61 Score 399.89 align-len 257 gaps 65 (25.29%)
+P-value 1.11e-05 Afp-num 36171 Identity 6.61% Similarity 22.18%
+Block  0 afp  3 score 71.07 rmsd  1.29 gap 0 (0.00%)
+Block  1 afp  8 score 174.08 rmsd  4.48 gap 3 (0.04%)
+Block  2 afp  4 score 68.31 rmsd  2.68 gap 2 (0.06%)
+Block  3 afp  3 score 71.14 rmsd  1.58 gap 0 (0.00%)
+Block  4 afp  5 score 95.86 rmsd  4.55 gap 0 (0.00%)
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:   15 NKKQYLIRLGCLLIGLYLFSLSIALYVPTAVGASHVDFTNFSILALFKDWAKVNEKTVEGLVAATNYKLA
+              1111111111111111111111111111                                2  2222222
+Chain 2:    1 MLSLFRIIIHVCCLGPVAWLAWVLLSGDE-------------------------------SQLGADPIKE
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:   85 LMSLYGFLLLVSVVFLVLSIIREY--KVTKDKKLWLQLIPLIVLDVIINVGLSYVIDGQIEMLKVIGYLD
+              222222222222222222222222  222222222222222222222222222222222       3333
+Chain 2:   40 IQHFLGFSALTILLIMFILGKVFYLLKQPQLQVLRRALGLWAWFYVVLHVYAYLALELGY------DFSL
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:  153 WMFNQSTAYQFRTIFFTIAFVLYIAGLTFWIHSGWLLGSYNSINTNFMRLTKLPFNVSRVLMDVLIIVPG
+              3333333333333333333333333333333333                   44444444444444444
+Chain 2:  104 FVQELVNRGYLIIGAIAFLILTLMALSSWSYLKLKMGK---------------WWFYLHQLGYYALLLGA
+
+                  .    :    .    :    .    :    .    :    .
+Chain 1:  223 VIMLLVNP-ISWDIKAKFLLNYVNIGTIGFLFLAGPMLGKTLGLLNK
+              4444444  555555555555555 5555555555555555555555
+Chain 2:  159 IHYVWSVKNVTFSSMLYLILSIMI-LCDALYGLFIKRKGRSTSAHTG
+
+Note: positions are from PDB; the numbers between alignments are block index
+

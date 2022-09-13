@@ -1,0 +1,20 @@
+Align syn500.pdb 104 with AF-P80242-F1-model_v3.pdb 136
+Twists 3 ini-len 80 ini-rmsd 4.45 opt-equ 82 opt-rmsd 1.97 chain-rmsd 13.60 Score 136.68 align-len 114 gaps 32 (28.07%)
+P-value 6.28e-03 Afp-num 3821 Identity 6.14% Similarity 21.05%
+Block  0 afp  2 score 36.23 rmsd  1.42 gap 3 (0.16%)
+Block  1 afp  3 score 70.91 rmsd  0.88 gap 0 (0.00%)
+Block  2 afp  2 score 41.45 rmsd  0.88 gap 11 (0.41%)
+Block  3 afp  3 score 55.88 rmsd  3.89 gap 0 (0.00%)
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:    2 VDIIINYKNNKIIQFQMKGHANSD--------EYGKDLVCAGLTAIVSGALNAIDSYYKN--DVDIEVLK
+              11111111   11111111             2222222222222222222222222     33333333
+Chain 2:   15 AGHITSDD---GVLDFDIVMPNAKKEGQTGTNPEQLFAAGYAACFGGALEHVAKEQNIEIDSEIEGQVSL
+
+                  .    :    .    :    .    :    .    :
+Chain 1:   62 ----------NKITIIVKQ-ENNNNLQLMLDMLKIQIQTITIQY
+                        333333333 444444444444444444444444
+Chain 2:   82 MKDESDGGFKIGVTLVVNTKDLDREKAQELVNAAHEFCPYSKAT
+
+Note: positions are from PDB; the numbers between alignments are block index
+

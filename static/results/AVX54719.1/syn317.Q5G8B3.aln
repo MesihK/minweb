@@ -1,0 +1,18 @@
+Align syn317.pdb 81 with AF-Q5G8B3-F1-model_v3.pdb 73
+Twists 1 ini-len 56 ini-rmsd 1.14 opt-equ 56 opt-rmsd 0.90 chain-rmsd 13.18 Score 147.31 align-len 74 gaps 18 (24.32%)
+P-value 1.30e-07 Afp-num 3688 Identity 4.05% Similarity 17.57%
+Block  0 afp  5 score 119.14 rmsd  0.96 gap 0 (0.00%)
+Block  1 afp  2 score 42.21 rmsd  1.50 gap 0 (0.00%)
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:    8 SAGALAGMLIGVIIAAIIIGLILGFVITRYMVKKQLKDNPPITEKQIRAMYMSMGRKPSEADIKKTMNAI
+              1111111111111111111111111111111111111111                  222222222222
+Chain 2:    1 MQIKHLITLFFLVLIVADQCSAFFSLIPSLIGGLVSAIKGRKKREISTQIDQYRN---LQKREAELEELL
+
+              
+Chain 1:   78 KRAK
+              2222
+Chain 2:   68 DRLP
+
+Note: positions are from PDB; the numbers between alignments are block index
+

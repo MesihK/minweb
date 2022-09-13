@@ -1,0 +1,17 @@
+Align syn513.pdb 110 with AF-Q2SS83-F1-model_v3.pdb 110
+Twists 0 ini-len 104 ini-rmsd 0.20 opt-equ 110 opt-rmsd 0.24 chain-rmsd 0.20 Score 311.86 align-len 110 gaps 0 (0.00%)
+P-value 0.00e+00 Afp-num 3023 Identity 86.36% Similarity 94.55%
+Block  0 afp 13 score 311.86 rmsd  0.20 gap 0 (0.00%)
+
+                  .    :    .    :    .    :    .    :    .    :    .    :    .    :
+Chain 1:    1 MINNVGIDIVENKRIKLKKEFIIKVLSTNEIQTFNTKTKKQKKEFLAGRWAVKEAIIKTLDQAISMNKID
+              1111111111111111111111111111111111111111111111111111111111111111111111
+Chain 2:    1 MINNVGIDIVENKRIKLKEEFIVKVLSANEIKTFNIKNKKQKREFLAGRWAIKEAIIKTLDQPISMNKID
+
+                  .    :    .    :    .    :    .    :
+Chain 1:   71 IEYVNQKPVIQNKELQNILISISHEKKYAIGIALKQSDNK
+              1111111111111111111111111111111111111111
+Chain 2:   71 IEYINDKPVIKNQELQNILISISHEKKYAVGIALKQCDNK
+
+Note: positions are from PDB; the numbers between alignments are block index
+
