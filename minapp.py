@@ -16,11 +16,21 @@ app.config['SECRET_KEY'] = 'secret!'
 with open('jcvi.prost.db.pkl','rb') as f:
     db = loads(blosc.decompress(f.read()))
 
+def tr_source(sr):
+    if   sr == '1. PBF': return 'PROST+BLAST+Foldseek'
+    elif sr == '2. PF': return 'PROST+Foldseek'
+    elif sr == '3. BF': return 'BLAST+Foldseek'
+    elif sr == '4. PB': return 'PROST+BLAST'
+    elif sr == '5. P': return 'Only PROST'
+    elif sr == '6. F': return 'Only Foldseek'
+    elif sr == '7. B': return 'Only BLAST'
+    else: return 'NA'
+
 summary = []
 for p in db:
     info = db[p]
     #pid, jcvi, func, class, essentiality, homolog, function, tm, seqid, PROST hom, BLAST hom, FS hom
-    summary.append([p,info[0][1].split('_')[1],info[0][3],info[0][4],info[0][5],info[1][0],info[1][3],info[1][1],info[1][2],info[1][4],info[0][19],info[0][20],info[0][21]])
+    summary.append([p,info[0][1].split('_')[1],info[0][3],info[0][4],info[0][5],info[1][0],info[1][3],info[1][1],info[1][2],tr_source(info[1][4]),info[0][19],info[0][20],info[0][21]])
 
 @app.route('/', methods=['GET'])
 def index():
