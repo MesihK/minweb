@@ -6,8 +6,25 @@
 
 <div class="container mt-4 mb-5">
   <div class="row">
-    <div class="col-12 d-flex justify-content-center">
+    <div class="col-12 mb-5">
       <h2>Minimal Organisim JCVI-Syn3a PROST Results</h2>
+      <p>This page presents PROST analysis of J. Craig Venter Institute (JCVI) <i>Syn3a</i> (minimal organism) <a href="https://doi.org/10.1126/science.aad6253" target="_blank">[1]</a> genes. Each link in the <i>NCBI ID</i> column opens a detail page for that protein.
+Homologs for each protein found by three different tools: PROST, BLAST and Foldseek. Later, a structural alignment tool FATCAT <a href="https://doi.org/10.1093/nar/gkaa443" target="_blank">[2]</a> is used to get the significance of structural alignment of the minimal organisim protein with its homologs.
+The most significant structural homolog named as best homolog shown in this table with its function for referance. Detailed explanation of each column given below:  </p>
+      <ul>
+        <li><b>NCBI ID: </b>NCBI identification tag for minimal organisim protein. Opens a detail page for that protein.</li>
+        <li><b>JCVI ID: </b>JCVI identification tag for the same protein.</li>
+        <li><b>Function: </b>Assigned function of the minimal organisim protein when it's published. </li>
+        <li><b>Classification: </b>Initial classification of minimal organisim proteins using TIGRfam database by it's authors <a href="https://doi.org/10.1126/science.aad6253" target="_blank">[1]</a> </li>
+        <li><b>Best Homolog: </b>The most significant structural homolog for the minimal organisim protein.</li>
+        <li><b>Hom. Func.: </b>The function of the most significant structural homolog.</li>
+        <li><b>P-Score: </b>The structural similiarty statistical significance value produced by FATCAT <a href="https://doi.org/10.1093/nar/gkaa443" target="_blank">[2]</a> structural alignment tool. This value indicates the similarity between JCVI-Syn3a protein with its closest homolog.</li>
+        <li><b>Seq-Id: </b>The sequence identity score produced by the global alignment algorithim using the ProtSub matrix <a href="https://doi.org/10.1002/prot.26050" target="_blank">[3]</a>  with a gap opening 5 and gap extention 1 penalties.</li>
+        <li><b>Hom. Source: </b>The tool that found the most significant structural homolog.</li>
+        <li><b>PROST Hom: </b>The number of homologs found by PROST.</li>
+        <li><b>BLAST Hom: </b>The number of homologs found by BLAST.</li>
+        <li><b>Foldseek Hom: </b>The number of homologs found by Foldseek.</li>
+      </ul>
     </div>
     <div class="col-12 mb-5">
     <table id="example" class="table table-striped mt-2 mb-5" style="width:100%">
